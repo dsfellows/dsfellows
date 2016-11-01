@@ -6,7 +6,7 @@
 
 # Internet play
 
-+ [Scene 1](https://github.com/upenndigitalscholarship/dsfellows/blob/master/intro-to-internet/intro-to-internet-play.md)
++ [Scene 1](https://github.com/dsfellows/dsfellows/blob/master/intro-to-internet/intro-to-internet-play.md)
 
 # Download a text editor
 
@@ -15,7 +15,7 @@
 
 # The most basic possible website
 
-+ Download zip file from Github: [html_css_examples.zip](https://github.com/upenndigitalscholarship/dsfellows/blob/master/html_css_examples.zip)
++ Download zip file from Github: [html_css_examples.zip](https://github.com/dsfellows/dsfellows/blob/master/html_css_examples.zip)
 + Example of simple, one-file HTML/CSS static site; open in browser
 + Basic HTML syntax: can you add items to a lists? Link to a different page? Include a different image?
 + Command-slash will comment highlighted text out in Atom; practice that
@@ -47,7 +47,7 @@
 
 # Internet play
 
-+ [Scene 2](https://github.com/upenndigitalscholarship/dsfellows/blob/master/intro-to-internet/intro-to-internet-play.md)
++ [Scene 2](https://github.com/dsfellows/dsfellows/blob/master/intro-to-internet/intro-to-internet-play.md)
 
 # Reclaim
 
