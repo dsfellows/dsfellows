@@ -2,15 +2,15 @@
 
 ## Fall semester
 
-Week 1 (9/22): Intro
+[Week 1 (9/22): Intro](https://github.com/dsfellows/dsfellows/blob/master/week_1_agenda.md)
 
-Week 2 (10/13): Beautiful websites in the clouds
+[Week 2 (10/13): Beautiful websites in the clouds](https://github.com/dsfellows/dsfellows/blob/master/week_2_agenda.md)
 + How does the internet work?
 + What makes a website beautiful, interactive, etc.?
 + Intro to Markdown
 + Start setting up Reclaim domains
 
-Week 3 (10/27): Anatomy of information
+[Week 3 (10/27): Anatomy of information](https://github.com/dsfellows/dsfellows/blob/master/week_3_agenda.md)
 + How do the digital tools we use fit into a longer history of media and information management?
 + Jon Pollack shows us around special collections
 + History of information management: 17th century Bible concordance, Samuel Johnson's dictionary, Sir Charles Grandison indices
