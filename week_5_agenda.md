@@ -1,6 +1,6 @@
 # While we're eating
 + Download [Github desktop](https://desktop.github.com/)
-+ Install Jekyll dependences using [Programming Historian tutorial](http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages#section1)
++ Install Jekyll dependences using [Programming Historian tutorial](http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages#section2)
 
 # Outline
 
