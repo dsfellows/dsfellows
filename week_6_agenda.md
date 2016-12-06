@@ -20,15 +20,15 @@
 + Having done this, are there any categories you would add to the ML form?
 + How does this compare to the official ML data set?
 
-##OpenRefine
+#OpenRefine
 - What is OpenRefine
 - How is OpenRefine useful
 - How is OpenRefine useful to Digital Scholarship, and how does it define data?
 
-##OpenRefine Tutorial
+#OpenRefine Tutorial
 - Useful link: http://enipedia.tudelft.nl/wiki/OpenRefine_Tutorial
 
-## What you will need
+# What you will need
 - [OpenRefine] (http://openrefine.org)
 - [Monument Lab CSV file] (https://www.opendataphilly.org/organization/monument-lab)
 
@@ -43,7 +43,7 @@ What is a CSV file?
 - Can use OpenRefine (formerly Google Refine) to parse through the data
 
 
-### Ex. 1 Sorting Data
+## Ex. 1 Sorting Data
 - What: Use OpenRefine to filter and sort through data
 - Show Text filter- filtering through data points manually
 - How to use a text Facet
@@ -54,7 +54,7 @@ What is a CSV file?
   - All the data points with number "1" will appear
 
 
-### Ex. 2 Cleaning Data
+## Ex. 2 Cleaning Data
 - What: Clean and make data entries consistent
 
 - Show: Address -> Facet (Should see names of addresses input by people)
