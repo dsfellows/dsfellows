@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+	<marc:record>
+		<marc:leader>02314cam a2200397 a 4500</marc:leader>
+		<marc:controlfield tag="001">50872</marc:controlfield>
+		<marc:controlfield tag="005">20141119135825.0</marc:controlfield>
+		<marc:controlfield tag="008">850708m17551756enk      d    00010 eng d</marc:controlfield>
+		<marc:datafield tag="035" ind1=" " ind2=" ">
+			<marc:subfield code="a">(OCoLC)ocm07761060</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="035" ind1=" " ind2=" ">
+			<marc:subfield code="a">(OCoLC)7761060</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="035" ind1=" " ind2=" ">
+			<marc:subfield code="a">(CStRLIN)PAUG85-B25043</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="035" ind1=" " ind2=" ">
+			<marc:subfield code="a">(CaOTULAS)185102595</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="035" ind1=" " ind2=" ">
+			<marc:subfield code="9">AAF8955</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="035" ind1=" " ind2=" ">
+			<marc:subfield code="a">50872</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="040" ind1=" " ind2=" ">
+			<marc:subfield code="a">PU</marc:subfield>
+			<marc:subfield code="c">PU</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="090" ind1=" " ind2=" ">
+			<marc:subfield code="a">PE1620</marc:subfield>
+			<marc:subfield code="b">.J6 1756</marc:subfield>
+			<marc:subfield code="i">04/29/87 CT</marc:subfield>
+			<marc:subfield code="h">07/11/85 CT</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="100" ind1="1" ind2=" ">
+			<marc:subfield code="a">Johnson, Samuel,</marc:subfield>
+			<marc:subfield code="d">1709-1784.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="245" ind1="1" ind2="2">
+			<marc:subfield code="a">A dictionary of the English language :</marc:subfield>
+			<marc:subfield code="b">in which the words are deduced from their originals, and illustrated in their different significations by examples from the best writers : to which are prefixed, a history of the language, and an English grammar /</marc:subfield>
+			<marc:subfield code="c">by Samuel Johnson ... : in two volumes.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="250" ind1=" " ind2=" ">
+			<marc:subfield code="a">The second edition.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="260" ind1=" " ind2=" ">
+			<marc:subfield code="a">London :</marc:subfield>
+			<marc:subfield code="b">Printed by W. Strahan, for J. and P. Knapton, T. and T. Longman, C. Hitch and L. Hawes, A. Millar, and R. and J. Dodsley,</marc:subfield>
+			<marc:subfield code="c">1755-1756.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="300" ind1=" " ind2=" ">
+			<marc:subfield code="a">2 v. ;</marc:subfield>
+			<marc:subfield code="c">43 cm. (fol.)</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="500" ind1=" " ind2=" ">
+			<marc:subfield code="a">Vol. 2 has a variant publisher statement: Printed by W. Strahan for J. Knapton, C. Hitch and L. Hawes, A. Millar, R. and J. Dodsley, and M. and T. Longman.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="500" ind1=" " ind2=" ">
+			<marc:subfield code="a">Issued in parts.  Cf. Chapman, R.W. and Hazen, R.T.  "Johnsonian Bibliography" Oxford Bibliographic Society, Proceedings &amp; Papers, V, iii (1938), 138.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="650" ind1=" " ind2="0">
+			<marc:subfield code="a">English language</marc:subfield>
+			<marc:subfield code="x">Dictionaries</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="650" ind1=" " ind2="4">
+			<marc:subfield code="a">CHR 1756</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="650" ind1=" " ind2="4">
+			<marc:subfield code="a">PRO Dusar, F. (autograph) (RBC copy 1)</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="650" ind1=" " ind2="4">
+			<marc:subfield code="a">PRO Willing, Dolly, fl. 1794 (autograph) (RBC copy 2)</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="650" ind1=" " ind2="4">
+			<marc:subfield code="a">PRO Willing, Richard, fl. 1793 (autograph) (RBC copy 2)</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="650" ind1=" " ind2="4">
+			<marc:subfield code="a">PRO Willing, Abby (inscription) (RBC copy 2)</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="650" ind1=" " ind2="4">
+			<marc:subfield code="a">PRO Burr, Charles W. (Charles Walts), 1861- (donor) (RBC copy 1)</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="752" ind1=" " ind2=" ">
+			<marc:subfield code="a">England</marc:subfield>
+			<marc:subfield code="d">London.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="950" ind1=" " ind2=" ">
+			<marc:subfield code="l">RBC</marc:subfield>
+			<marc:subfield code="d">\Folio\</marc:subfield>
+			<marc:subfield code="v">v.1-2</marc:subfield>
+			<marc:subfield code="i">04/29/87 RL</marc:subfield>
+			<marc:subfield code="h">07/11/85 C</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="955" ind1=" " ind2=" ">
+			<marc:subfield code="l">RBC</marc:subfield>
+			<marc:subfield code="c">1:v.1</marc:subfield>
+			<marc:subfield code="q">643138/9</marc:subfield>
+			<marc:subfield code="q">g. Burr, Dr. Charles W.</marc:subfield>
+			<marc:subfield code="s">Ex libris: Dusar, F. (autograph)</marc:subfield>
+			<marc:subfield code="s">Ex libris: Burr, Dr. Charles W.</marc:subfield>
+			<marc:subfield code="h">07/11/85 C</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="955" ind1=" " ind2=" ">
+			<marc:subfield code="l">RBC</marc:subfield>
+			<marc:subfield code="c">1:v.2</marc:subfield>
+			<marc:subfield code="q">643138/9</marc:subfield>
+			<marc:subfield code="q">g. Burr, Dr. Charles W.</marc:subfield>
+			<marc:subfield code="s">Ex libris: Dusar, F. (autograph)</marc:subfield>
+			<marc:subfield code="s">Ex libris: Burr, Dr. Charles W.</marc:subfield>
+			<marc:subfield code="h">07/11/85 C</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="955" ind1=" " ind2=" ">
+			<marc:subfield code="l">RBC</marc:subfield>
+			<marc:subfield code="c">2:v.1</marc:subfield>
+			<marc:subfield code="q">360458/9</marc:subfield>
+			<marc:subfield code="s">Ex libris: Willing, Richard (autograph)</marc:subfield>
+			<marc:subfield code="s">Ex libris: Willing, Dolly (autograph)</marc:subfield>
+			<marc:subfield code="s">Ex libris: Willing, Abby (inscription)</marc:subfield>
+			<marc:subfield code="h">07/11/85 C</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="948" ind1=" " ind2=" ">
+			<marc:subfield code="a">x</marc:subfield>
+			<marc:subfield code="a">add:db 1/19/96</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+</marc:collection>

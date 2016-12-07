@@ -1,10 +1,13 @@
-# Monument Lab proposal form
+# Monument Lab proposals
 + What is YOUR appropriate monument for the city of Philadelphia?
 
 # Metadata: a brief introduction
 + Example: a [Franklin record](http://franklin.library.upenn.edu/record.html?id=FRANKLIN_50872&) for Johnson's dictionary
-+ Descriptive vs structural vs administrative
-+ Tension between detail/specificity and standardization; control terms (see author in Franklin record)
++ Types of metadata:
+  + Descriptive (deals with content - author, publisher, subject, etc)
+  + Structural (how compound objects are put together - # of volumes/pages, etc)
+  + Administrative (used to help manage a resource in a collection - acquisition info, copyright, file type, location)
++ Tension between detail/specificity and standardization; importance of control terms (see author in Franklin record)
 + A peek behind the interface: look at a MARC record (= machine-readable cataloging)
 
 # Metadata for Monument Lab
