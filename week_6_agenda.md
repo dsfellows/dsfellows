@@ -4,15 +4,15 @@
 # Metadata: a brief introduction
 + Example: a [Franklin record](http://franklin.library.upenn.edu/record.html?id=FRANKLIN_50872&) for Johnson's dictionary
 + Types of metadata:
-  + Descriptive (deals with content - author, publisher, subject, etc)
-  + Structural (how compound objects are put together - # of volumes/pages, etc)
+  + Descriptive (deals with content and some physical attributes - author, publisher, subject, medium, etc)
+  + Structural (how compound objects are put together - # of volumes/pages, order of sections and how many pages they take up, etc)
   + Administrative (used to help manage a resource in a collection - acquisition info, copyright, file type, location)
 + Tension between detail/specificity and standardization; importance of control terms (see author in Franklin record)
 + A peek behind the interface: look at a MARC record (= machine-readable cataloging)
 
 # Metadata for Monument Lab
 + Looking at our proposals and a few more: what kind of metadata can/should we record about these proposals?
-+ What more interpretive categories might we want to add?
++ What more interpretive categories might we want to add, beyond what's on the form?
 + Take your proposal and one other and try recording metadata about them in this [Google sheet](https://docs.google.com/spreadsheets/d/1jF9mQ_3x6tBwN7NIXqiGCHloE9pND46-LntBAjA8m0I/edit?usp=sharing)
 + What problems come up? What categories are easier or more difficult to standardize?
   + Transcribing text, describing image?
@@ -71,6 +71,9 @@ What is a CSV file?
     - Age --> Edit cells --> Transform
     - value.replace("old", "0")
     - All the "old" entries should now be under "0"
+
+# Group project conversation
++ In small groups
 
 # Additional resources
 + ["Ontologies and Metadata"](http://dh101.humanities.ucla.edu/?page_id=35) writeup by Johanna Drucker
