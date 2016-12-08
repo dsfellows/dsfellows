@@ -75,5 +75,7 @@ What is a CSV file?
 # Group project conversation
 + In small groups
 
+# Requests for next semester?
+
 # Additional resources
 + ["Ontologies and Metadata"](http://dh101.humanities.ucla.edu/?page_id=35) writeup by Johanna Drucker
