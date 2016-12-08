@@ -34,6 +34,7 @@
 # What you will need
 - [OpenRefine] (http://openrefine.org)
 - [Monument Lab CSV file] (https://www.opendataphilly.org/organization/monument-lab)
+- [Link to open OpenRefine](http://127.0.0.1:3333/) (the application needs to be running first; the interface is locally hosted through your browser)
 
 Open refine is a good way to:
 - Clean data
