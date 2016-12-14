@@ -20,11 +20,11 @@
 
 Week 4 (11/10): Monument Lab conversation with Paul Farber
 
-Week 5 (11/10): Web design, continued
+[Week 5 (11/10): Web design, continued](https://github.com/dsfellows/dsfellows/blob/master/week_5_agenda.md)
 + Intro to Git
 + Intro to Jekyll
 
-Week 6 (12/8): Data management
+[Week 6 (12/8): Data management](https://github.com/dsfellows/dsfellows/blob/master/week_6_agenda.md)
 + Looking at raw data from Monument Lab, how could we organize it? What other data might be worth collecting?
 + What is metadata and what can it do for you?
 + How to clean data using Openrefine
