@@ -27,31 +27,33 @@
 + This isn't necessarily a literal truth about how texts are composed; it may not even be a good model of how societal influences or discourses help to form texts. But it gives us a way to re-think or re-see the contents of a text/corpus
 
 ![Visual representation of topic modeling](https://github.com/dsfellows/dsfellows/blob/master/Blei_topicmodel.png)
+
 *A visual representation of topic modeling by [David M. Blei](http://www.cs.princeton.edu/~blei/papers/Blei2012.pdf).*
 
 ## In practice
 + Download Scott Enderle's [Topic Modeling Tool](https://github.com/senderle/topic-modeling-tool) from Github. This will give you a graphical user interface that you can use to run the most common algorithm used for topic modeling (as opposed to running it from the command line). It also lets you input metadata as part of your corpus and use it to analyze your topics.
 + Follow readme instructions to use the tool
 
-## Additional resources
-+ ["Topic Modeling: A Basic Introduction"](http://journalofdigitalhumanities.org/2-1/topic-modeling-a-basic-introduction-by-megan-r-brett/) by Megan R. Brett
-+ ["Topic Modeling Made Just Simple Enough"](https://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/) by Ted Underwood (includes an explanation of the math behind topic modeling geared toward people with less of a math/CS background)
+## Questions
+
+**Fill in based on what corpus we end up using.**
 
 # Wrap-up
 + ["Bag of words" model](https://en.wikipedia.org/wiki/Bag-of-words_model): splitting a text into words, disregarding grammar and word order, but noting the frequency with which each word appears (term from natural language processing)
 + vs an n-gram model, which preserves basic information about word order (involves parsing a text into (usually) multi-word chunks - bigram = two words, trigram = 3, etc)
 + Parallel with concordances and indices from week 3?
 
+# Additional resources
++ ["Topic Modeling: A Basic Introduction"](http://journalofdigitalhumanities.org/2-1/topic-modeling-a-basic-introduction-by-megan-r-brett/) by Megan R. Brett
++ ["Topic Modeling Made Just Simple Enough"](https://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/) by Ted Underwood (includes an explanation of the math behind topic modeling geared toward people with less of a math/CS background)
++ [A more allegorical explanation of topic modeling](http://www.matthewjockers.net/2011/09/29/the-lda-buffet-is-now-open-or-latent-dirichlet-allocation-for-english-majors/) by Matt Jockers
+
 
 try voyant with larger corpus
 
-n-grams
 corpus assembly issues
 
 does topic modeling use n-grams? bag of words? something else?
+http://people.ee.duke.edu/~lcarin/icml2006.pdf
 
-add in NER?
-
-http://www.matthewjockers.net/2011/09/29/the-lda-buffet-is-now-open-or-latent-dirichlet-allocation-for-english-majors/
-
-topic modeling and bag of words http://people.ee.duke.edu/~lcarin/icml2006.pdf
+do NER at some point?
