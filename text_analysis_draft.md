@@ -4,6 +4,7 @@
 
 ## Basics
 + A browser-based tool that lets you upload one or several documents, then run basic forms of text analysis (mostly involving word frequency) on them
++ Upload multiple documents using a zip file
 + What's being displayed in each of these boxes?
 + Summary box: what's in this corpus?
 + Is there information you might want that ISN'T displayed?
