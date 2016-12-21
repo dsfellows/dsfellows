@@ -12,7 +12,7 @@
 
 [Week 3 (10/27): Anatomy of information](https://github.com/dsfellows/dsfellows/blob/master/week_3_agenda.md)
 + How do the digital tools we use fit into a longer history of media and information management?
-+ Jon Pollack shows us around special collections
++ John Pollack shows us around special collections
 + History of information management: 17th century Bible concordance, Samuel Johnson's dictionary, Sir Charles Grandison indices
 + Maps of Philadelphia-- William Penn to Google Maps
 + What we lose and gain from the digital
@@ -30,42 +30,35 @@ Week 4 (11/10): Monument Lab conversation with Paul Farber
 + How to clean data using Openrefine
 + Project brainstorm
 
-
 ## Spring semester
 
-Week 7: Metadata, continued
-+ Omeka exhibits from Monument Lab data? What does it mean to work with metadata on monuments that don’t exist (yet)?
+Week 7: Historical markers, text analysis, project work
++ Analyze data on Philadelphia historical markers using Stanford NER
++ How do these compare to ML data set? To more traditional monuments in Philly?
++ What do we want our project to look like? What skills, tools, data will we need to get there?
 
-
-Week 8: Text analysis
-+ Work with texts about Philadelphia (emphasis on Monument Lab research sites?)
-+ Some combination of Voyant, Stanford NER, topic modeling
-+ Proposing monuments based on results of text analysis
-
+Week 8: Text analysis continued
++ Analyze a corpus of texts about Philadelphia using Voyant and Openrefine
++ Across these texts, how are people talking about the city? Relationship to Monument Lab, actually-existing monuments, our project work?
 
 Week 9: Mapping
 + Tools for mapping monument locations
 + What can we do with locations that can’t be mapped?
 
-
 Week 10: Design
 + Photoshop; others?
 
-
 Week 11: 3D printing
 + A workshop on 3D printing monuments
-
 
 Week 12: Disability and access
 + What makes a website or project accessible, and for whom?
 + Alt-text for Monument Lab images
 + Accessible data gathering protocols?
 
-
 Week 13: Scholarly project management
 + Methods for project management
 + Labor and collaboration
-
 
 Week 14: Copyright
 + Crash course on the history and legal issues involved in copyright
