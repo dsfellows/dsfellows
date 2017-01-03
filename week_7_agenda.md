@@ -21,8 +21,8 @@
 + What can the NER do for us when working with this type of data? What can't it do? What other tools or types of analysis might supplement it?
 + As a group: discuss findings; how does the technology behind the NER work?
 
+**Note:** if you couldn't get the NER to run on your computer, you can download the  results [here](https://github.com/dsfellows/dsfellows/blob/master/PA_historical_markers_NER.txt).
+
 # Project work
 + If technology were no obstacle, what would you want this project to look like?
 + What kinds of skills/tools would we need?
-
-put on github: raw data for anyone who can't get NER to work; zip file of cleaned data just in case
