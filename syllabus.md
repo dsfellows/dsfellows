@@ -34,7 +34,7 @@ Week 4 (11/10): Monument Lab conversation with Paul Farber
 
 Week 7: Historical markers, text analysis, project work
 + Analyze data on Philadelphia historical markers using Stanford NER
-+ How do these compare to ML data set? To more traditional monuments in Philly?
++ How do these compare to the ML data set? To existing monuments in Philly?
 + What do we want our project to look like? What skills, tools, data will we need to get there?
 
 Week 8: Text analysis continued
