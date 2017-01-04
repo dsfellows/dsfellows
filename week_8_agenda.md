@@ -71,5 +71,3 @@ corpus assembly issues
 
 does topic modeling use n-grams? bag of words? something else?
 http://people.ee.duke.edu/~lcarin/icml2006.pdf
-
-do NER at some point?
