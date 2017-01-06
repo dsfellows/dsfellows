@@ -1,5 +1,3 @@
-<iframe width="100%" height="520" frameborder="0" src="https://ydshiroma.carto.com/viz/e2c8af22-d42f-11e6-8b92-0e233c30368f/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-
 # JSON and GeoJSON
 
 + JSON = javascript object notation
@@ -10,7 +8,7 @@
 
 # Posing questions
 
-+ Look at example maps of ML data compared to historical markers and historical preservation sites in Philly: Mapbox, Carto
++ Look at example maps of ML data compared to historical markers and historical preservation sites in Philly [here](http://upenndigitalscholarship.org/dsfellows16/mapdemo/mapdemo.html)
 + What do these maps tell you? What do they NOT tell you?
 + With a partner, pose a question about these data sets or a subset of them that you could answer/address using a new visualization
 
@@ -60,19 +58,45 @@ Try uploading your data and creating a visualization in [Mapbox](https://www.map
 
 # Embedding your map in a website
 
+Create an HTML file in atom. Title it something like "mapdemo.html". Include the following in its head:
+
+```
+<script src='https://api.mapbox.com/mapbox-gl-js/v0.30.0/mapbox-gl.js'></script>
+<link href='https://api.mapbox.com/mapbox-gl-js/v0.30.0/mapbox-gl.css' rel='stylesheet' />
+```
+
+Include the following in the body of the page:
+
+```
+<div id='map' style='width: 400px; height: 300px;'></div>
+<script>
+mapboxgl.accessToken = '<your access token here>';
+var map = new mapboxgl.Map({
+    container: 'map',
+    style: '<your style URL here>'
+});
+</script>
+```
+
+[(source)](https://www.mapbox.com/mapbox-gl-js/api/)
+
+To find your access token and style URL, go to the Mapbox site and click on Styles, then on the name of your map. Click Share, Develop & Use (on the right side of the page).
+
+(LINK TO EXAMPLE CODE FROM MAPDEMO PAGE)
+
+Play around with the size of the map by changing the number of pixels (px). Note that you can replace "400px" with something like "100%" if you want the map to fill a particular portion of the screen.
+
+Log into your Reclaim site and use the file manager to upload the HTML file. The page with your embedded map should now be visible at yoursitename.com/mapdemo.html (or whatever you named the file).
+
+# Styling your map
+
+https://www.mapbox.com/mapbox-gl-js/api/
+
 put an examples of the code to do a few things on github, or link to mapbox documentation
 
+how much can we realistically do with this? this looks like javascript- can you also use carto CSS? go for that instead if possible
 
-
-
-
-
-[Guide to using markers](https://www.mapbox.com/help/markers/)
-
-
-
-
-[Guide](https://www.mapbox.com/help/getting-started-mapbox-studio-1/) to using Mapbox Studio
+explains how to do popups etc: https://www.mapbox.com/help/getting-started-mapbox-studio-3/
 
 # Additional resources
 + [Carto](https://carto.com/) is a commonly used alternative to Mapbox. In my experience, Carto makes it a little easier to add features like pop-up text and legends to your map, and offers a
@@ -83,9 +107,8 @@ look for images of historic maps to use
 
 [Leaflet](http://leafletjs.com/) - used to make preservation alliance map
 
-Carto CSS
-
-
 purple: 7B00B4 (hist markers)
 pink: ff0059 (historic resources)
 blue: 5ca2d1 (ML)
+
+https://www.mapbox.com/help/style-symbol-layer-studio/ icons etc
