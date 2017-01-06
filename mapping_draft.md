@@ -39,13 +39,14 @@ experiment with editing/paring down the dataset within mapbox- or is it easier t
 
 Try uploading your data and creating a visualization in [Mapbox](https://www.mapbox.com/). You'll need to create a free account first.
 
+Basic workflow:
++ Upload a dataset (can be CSV or GeoJSON)
++ Edit your dataset
++ Export to tileset (which prepares your dataset to be used in a visualization)
++ Create a style and add tilesets to it. This is what will generate an actual map whose formatting you can change.
+
 ## Tips and tricks
 
-+ **Basic workflow:**
-  + Upload a datasets (can be CSV or GeoJSON)
-  + Edit your datasets
-  + Export to tilesets (which prepares your dataset to be used in a visualization)
-  + Create a style using your tilesets. This is what will generate an actual map whose formatting you can change.
 + **To get your map to automatically display Philly instead of a zoomed-out view of the entire earth**: in the top right-hand corner, click: Map position -> Zoom. When you get your map zoomed and centered in the way you want, click the button for Lock default position.
 + **To add text to your map**: duplicate the layer containing the points you want to add text to. On the screen that lets you edit the layer, click Select data. Click the T icon to change the layer type to text. Then go back to the Style menu. "Text field" will let you choose what part of your data to display as text. "Halo" will add a border to your text, making it easier to read on your map.
 + **To change formatting for multiple layers at once**: control-click to select multiple layers at once. You can now edit those layers simultaneously or add them to a group using the "Group layers" icon in the top left. This will create a group of layers that you can edit all together. (Especially useful for getting text to show up in a standard font/size.)
