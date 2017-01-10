@@ -9,7 +9,7 @@
 # Posing questions
 
 + Look at example maps of ML data compared to historical markers and historical preservation sites in Philly [here](http://upenndigitalscholarship.org/dsfellows16/mapdemo/mapdemo.html)
-+ What do these maps tell you? What do they NOT tell you?
++ What do these maps tell you? What do they NOT tell you? What features would you want to add?
 + With a partner, pose a question about these data sets or a subset of them that you could answer/address using a new visualization
 
 # Raw data
@@ -59,22 +59,30 @@ Basic workflow:
 
 # Embedding your map in a website
 
-Create an HTML file in atom. Title it something like "mapdemo.html". Include the following in its head:
+Create an HTML file in atom. Title it something like "mapdemo.html". The page's head should look like this:
 
 ```
-<script src='https://api.mapbox.com/mapbox-gl-js/v0.30.0/mapbox-gl.js'></script>
-<link href='https://api.mapbox.com/mapbox-gl-js/v0.30.0/mapbox-gl.css' rel='stylesheet' />
+<head>
+  <meta charset='utf-8' />
+  <title>YOUR TITLE HERE</title>
+  <script src='https://api.mapbox.com/mapbox-gl-js/v0.30.0/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v0.30.0/mapbox-gl.css' rel='stylesheet' />
+  <style>
+        body { margin:0; padding:0; }
+        #map { position:absolute; top:0; bottom:0; width:100%; }
+  </style>
+</head>
 ```
 
 Include the following in the body of the page:
 
 ```
-<div id='map' style='width: 400px; height: 300px;'></div>
+<div id='map'></div>
 <script>
-mapboxgl.accessToken = '<your access token here>';
+mapboxgl.accessToken = '<YOUR ACCESS TOKEN HERE>';
 var map = new mapboxgl.Map({
     container: 'map',
-    style: '<your style URL here>'
+    style: '<YOUR STYLE URL HERE>'
 });
 </script>
 ```
@@ -87,29 +95,50 @@ To find your access token and style URL, go to the Mapbox site and click on Styl
 
 Play around with the size of the map by changing the number of pixels (px). Note that you can replace "400px" with something like "100%" if you want the map to fill a particular portion of the screen.
 
+CHECK: INCLUDING THIS IN HEAD VS DIV?
+
 Log into your Reclaim site and use the file manager to upload the HTML file. The page with your embedded map should now be visible at yoursitename.com/mapdemo.html (or whatever you named the file).
 
 # Styling your map
 
-https://www.mapbox.com/mapbox-gl-js/api/
+Mapbox GL JS is a javascript library that can be used to style/format Mapbox maps, giving you options beyond what you can do with Mapbox's web interface.
 
-put an examples of the code to do a few things on github, or link to mapbox documentation
+See examples of code that can be used to style your Mapbox map [here](https://www.mapbox.com/mapbox-gl-js/examples/). See also [my example](http://upenndigitalscholarship.org/dsfellows16/mapdemo/mapboxstyle.html) ML map with some interactive features added using Mapbox GL JS; see the code on Github (LINK). **Note that you'll need a few additional lines of code in ```<head>``` in order for the map to display properly.**
 
-how much can we realistically do with this? this looks like javascript- can you also use carto CSS? go for that instead if possible
+Which parts of the code for the ML map are producing which parts of the map?
 
-explains how to do popups etc: https://www.mapbox.com/help/getting-started-mapbox-studio-3/
+Can you adapt this code to display the map you just created on your Reclaim site?
+
+Pick an example from the Mapbox GL JS documentation and try adding it to your map.
 
 # Additional resources
-+ [Carto](https://carto.com/) is a commonly used alternative to Mapbox. In my experience, Carto makes it a little easier to add features like pop-up text and legends to your map, and offers a
++ More on Mapbox GL JS: [The End of CartoCSS](https://www.mapbox.com/blog/the-end-of-cartocss/) and [Data-Driven Styling](https://www.mapbox.com/blog/data-driven-styling/)
++ [Carto](https://carto.com/) is a commonly used alternative to Mapbox. Carto seems to offer a little less flexibility in terms of map design, but it makes it much easier to add features like pop-up text and legends to your map. It should be easy to learn after working with Mapbox!
++ [Leaflet](http://leafletjs.com/) is a javascript library that can be used with Carto and other mapping programs. (See a [comparison](https://www.mapbox.com/help/mapbox-gl-js-fundamentals/) with Mapbox GL JS.)
 
 # Loose ends
 
 look for images of historic maps to use
-
-[Leaflet](http://leafletjs.com/) - used to make preservation alliance map
 
 purple: 7B00B4 (hist markers)
 pink: ff0059 (historic resources)
 blue: 5ca2d1 (ML)
 
 https://www.mapbox.com/help/style-symbol-layer-studio/ icons etc
+
+include in zip file:
+cleaned and not cleaned versions of data sets
+the code that's creating the map demo page
+any other examples of carto css, etc that are up on the website
+
+
+
+use custom styling to get:
+a legend/key
+text popups
+change something like the appearance of the points?
+option for the person looking at the map to change base map/what data it displays?
+
+https://www.mapbox.com/mapbox.js/example/v1.0.0/stylelayer/
+
+mapbox.js is built on leaflet
