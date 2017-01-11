@@ -11,7 +11,7 @@ Download, unzip, and take a look at the contents. (LINK)
 
 # Computational text analysis: the big picture
 
-+ Relationship between these computational tools and concordances and indices from week 3?
++ Relationship between these computational tools and concordances and indices from week 3? ("bag of words" and ngram models)
 + How do the words or "topics" associated with Philadelphia compare with the topics of the monuments and markers we've looked at? What would be some appropriate monuments for the city of Philadelphia, according to these texts? What's missing?
 
 # Voyant
@@ -58,25 +58,20 @@ This is a Bayesian approach to probability. Thomas Bayes was an 18th century cle
 
 ## In practice
 + Download Scott Enderle's [Topic Modeling Tool](https://github.com/senderle/topic-modeling-tool) from Github. This will give you a graphical user interface that you can use to run the most common algorithm used for topic modeling (as opposed to running it from the command line). It also lets you input metadata as part of your corpus and use it to analyze your topics.
-+ Follow readme instructions to use the tool
++ Follow [these instructions](https://senderle.github.io/topic-modeling-tool/documentation/2017/01/06/quickstart.html) to use the tool. Once you've gotten the tool to generate output you can work with, get into groups of two or three.
 
 ## Questions
-+ Split into groups of two or three and compare your results with your partner's
-+ How do your most popular topics compare to Voyant's list of most frequently used words?
++ How do your topics compare to your partners'? To Voyant's list of most frequently used words in the corpus?
 + Pick one topic from your output and analyze it together. How do these words relate (or not) to each other? Is this topic disproportionately common in a particular text or texts? What's in those texts?
-+ Come up with a question about the corpus and see if you can answer it, or get close to answering it, with pivot tables
-
-20 topics with 40 words each got me better results than the default, seems less restricted to particular texts
-
-**Fill in based on what corpus we end up using.**
-
-# Wrap-up
-+ ["Bag of words" model](https://en.wikipedia.org/wiki/Bag-of-words_model): splitting a text into words, disregarding grammar and word order, but noting the frequency with which each word appears (term from natural language processing)
-+ vs an n-gram model, which preserves basic information about word order (involves parsing a text into (usually) multi-word chunks - bigram = two words, trigram = 3, etc)
-+ Parallel with concordances and indices from week 3?
++ Try adjusting the number of topics and words and running the tool again (just create a new folder for your output). What changes when you change the parameters? Does one set of results interest you more than another?
++ Come up with a question about the corpus and see if you can answer it using pivot tables (the TMT instructions will tell you how to do this)
++ Can you connect your findings back to Monument Lab?
 
 # Additional resources
 + ["Topic Modeling: A Basic Introduction"](http://journalofdigitalhumanities.org/2-1/topic-modeling-a-basic-introduction-by-megan-r-brett/) by Megan R. Brett
 + ["Topic Modeling Made Just Simple Enough"](https://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/) by Ted Underwood (includes an explanation of the math behind topic modeling geared toward people with less of a math/CS background)
 + [A more allegorical explanation of topic modeling](http://www.matthewjockers.net/2011/09/29/the-lda-buffet-is-now-open-or-latent-dirichlet-allocation-for-english-majors/) by Matt Jockers
 + [Historian's Macroscope writeup](http://www.themacroscope.org/?page_id=553) on topic modeling, including some discussion of why multiple runs generate different results and instructions for using pivot tables to analyze results
+
+
+do a zip file. clarify what's the metadata file, what goes into voyant, etc
