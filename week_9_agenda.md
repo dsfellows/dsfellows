@@ -1,78 +1,28 @@
-# A corpus of Philadelphia-related texts, 1681-1921
+# Exploring Philadelphia's historical markers
 
-Download, unzip, and take a look at the contents. (LINK)
++ Open this [data set of all PA historical markers](http://www.phmc.state.pa.us/apps/historical-markers.html), compiled by the Pennsylvania Historical and Museum Commission
++ What is included in this data set? In what ways can we sort it? What options do we have for exporting data?
++ How do the categories compare to ones we've seen in the ML data set? To our smaller ML data set?
++ What would we do with this data using tools we've already used/discussed (OpenRefine, Excel)?
++ What questions do we have about it?
 
-+ 27 texts set in or talking about Philadelphia
-+ Excerpts rather than full texts when texts clearly had one section set in/about Philly, while the rest dealt with other places
-+ Difficulty of finding plain-text versions - many texts have been digitized but not transcribed
-+ Found these primarily through searching Project Gutenberg for the word "Philadephia"; followed up by looking for history/education-related sites with primary texts about Philadelphia, but couldn't find many with plain text
-+ **Digitization is political,** meaning that this corpus is not a random or representative sample. Practitioners of computational text analysis often claim that it can help expand (or dismantle) existing literary canons by allowing us to deal with a larger volume of material, but the difficulty of finding plain-text versions of work by less canonical authors raises the possibility that this type of computational work will actually reproduce existing biases. The easiest works to find were novels by white authors and historical documents by famous white historical figures
-+ Works published in the US before 1923 are automatically in the public domain, so easier to find plain text versions
+# Analyzing historical marker text
 
-# Computational text analysis: the big picture
++ Download the full PA historical marker data set
++ To pull just the text of the historical markers from the data set, control-click on the relevant column to highlight it. Copy and paste it into a new document. Click File -> Save as. Under Format, select Comma Separated Values (.csv)
++ Follow [these instructions](https://github.com/ydshiroma/rise-2015/blob/master/Assignments/Rise_assignment_1.md#using-the-stanford-ner-on-robinson-crusoe) to download and run the Stanford NER on your text file; work through the section on manipulating and cleaning your data
++ Note: at any point during the process of cleaning your data, you can alphabetize it or arrange it in numerical order. In TextWrangler, click Text -> Sort lines. Check "Numbers match by value" and "Sorted lines to new document"; uncheck "Sorted lines replace selection." This will give you a new, sorted file.
 
-+ One way to get a sense of what's in this large-ish corpus without reading every text ourselves (though results still require interpretation)
-+ Relationship between these computational tools and concordances and indices from week 3? ("bag of words" and ngram models)
-+ How do the words or "topics" associated with Philadelphia compare with the topics of the monuments and markers we've looked at? What would be some appropriate monuments for the city of Philadelphia, according to these texts? What's missing?
+# Analysis
++ Split into twos and threes and pick one list (people, places, organizations, etc) to discuss
++ How accurate is the NER's identification of people, places, organizations, etc.? Does anything appear in your list that shouldn't be there? Is anything missing?
++ Do you notice any trends in what subjects have historical markers dedicated to them? What is over- or underrepresented? Is anything there that surprises you?
++ If any list items catch your interest, go back to the full data set and look for more information about the marker where they appear
++ What can the NER do for us when working with this type of data? What can't it do? What other tools or types of analysis might supplement it?
++ As a group: discuss findings; how does the technology behind the NER work?
 
-# Voyant
+**Note:** if you couldn't get the NER to run on your computer, you can download the  results [here](https://github.com/dsfellows/dsfellows/blob/master/PA_historical_markers_NER.txt).
 
-[voyant-tools.org](http://voyant-tools.org/)
-
-## Basics
-+ A browser-based tool that lets you upload one or several documents, then run basic forms of text analysis (mostly involving word frequency) on them
-+ Upload multiple documents using a zip file
-+ What's being displayed in each of these boxes?
-+ Summary box: what's in this corpus?
-+ Is there information you might want that ISN'T displayed?
-
-## Word cloud
-+ Mouse over the header on the word cloud; click on the blue button that looks like an off/off switch (mouseover text: "Define options for this tool"). What happens if we turn off stopwords? Can we view the list of stopwords? Add to the list? Remove words from it? Why is this important? In what ways can you manipulate your results?
-  + (Compare stopword lists of different lengths [here](http://www.ranks.nl/stopwords/))
-+ Export your visualization
-
-## Trends graph
-+ What are two terms we might want to map the relationship between? Can you figure out how to do that?
-+ Try searching with regular expressions (click the question mark icon in the search box for a guide to how this works)
-+ Raw vs relative frequencies
-+ In which documents does William Penn's name appear? In what contexts?
-
-## Troubleshooting
-+ Some features may not work in Google Chrome; try with a different browser
-+ Export a URL for your project (mouse over icons on the top header; click on the arrow)
-
-# Topic modeling
-
-## In theory
-+ A form of computational text analysis that identifies clusters of words that are likely to occur together using Bayesian probability
-+ Imagines that each text is composed of a finite set of "topics" or discourses. Zoe Borovsky's [analogy](http://miriamposner.com/blog/very-basic-strategies-for-interpreting-results-from-the-topic-modeling-tool/): like sticking together lumps of play-doh. Topic modeling reverse-engineers the text and tries to figure out what it's made of
-+ This isn't necessarily a literal truth about how texts are composed; it may not even be a good model of how societal influences or discourses help to form texts. But it gives us a way to re-think or re-see the contents of a text/corpus
-
-![Visual representation of topic modeling](https://github.com/dsfellows/dsfellows/blob/master/Blei_topicmodel.png)
-
-*A visual representation of topic modeling by [David M. Blei](http://www.cs.princeton.edu/~blei/papers/Blei2012.pdf).*
-
-+ Running a topic model multiple times will give you different results each time
-
-> [W]e instruct the computer to pick topics for us, and it begins with a series of blind guesses, assigning words to bins at random. The computer knows a warehouse full of word bins exists, but it cannot see inside it. The topic model is the computer’s attempt at inferring the contents of each bin by looking at each document and working backwards to the topic bins it likely drew from. The computer starts from the assumption that if several documents contain the same groups of words, those words likely form a ‘topic’. As the computer scans through the text over and over again, it reorganizes its initially random bins into closer and closer approximations of what it guesses the “real” topic bins must look like. Internally, the computer is optimizing for this problem: given a distribution of words over an entire collection of documents, what is the probability that this distribution of words within a document belong to a particular topic?
-This is a Bayesian approach to probability. Thomas Bayes was an 18th century clergyman who dabbled in mathematics. He was interested in problems of conditional probabilities, in light of prior knowledge.1 The formula which now bears Bayes’ name depends on assigning a prior probability, and then re-evaluating that probability in the light of what it finds. As the computer goes through this process over and over for each word in the collection, it changes its assumptions about the distribution. [source](http://www.themacroscope.org/?page_id=553)
-
-## In practice
-+ Download Scott Enderle's [Topic Modeling Tool](https://github.com/senderle/topic-modeling-tool) from Github. This will give you a graphical user interface that you can use to run the most common algorithm used for topic modeling (as opposed to running it from the command line). It also lets you input metadata as part of your corpus and use it to analyze your topics.
-+ Follow [these instructions](https://senderle.github.io/topic-modeling-tool/documentation/2017/01/06/quickstart.html) to use the tool. Once you've gotten the tool to generate output you can work with, get into groups of two or three.
-
-## Questions
-+ How do your topics compare to your partners'? To Voyant's list of most frequently used words in the corpus?
-+ Pick one topic from your output and analyze it together. How do these words relate (or not) to each other? Is this topic disproportionately common in a particular text or texts? What's in those texts?
-+ Try adjusting the number of topics and words and running the tool again (just create a new folder for your output). What changes when you change the parameters? Does one set of results interest you more than another?
-+ Come up with a question about the corpus and see if you can answer it using pivot tables (the TMT instructions will tell you how to do this)
-+ Can you connect your findings back to Monument Lab?
-
-# Additional resources
-+ ["Topic Modeling: A Basic Introduction"](http://journalofdigitalhumanities.org/2-1/topic-modeling-a-basic-introduction-by-megan-r-brett/) by Megan R. Brett
-+ ["Topic Modeling Made Just Simple Enough"](https://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/) by Ted Underwood (includes an explanation of the math behind topic modeling geared toward people with less of a math/CS background)
-+ [A more allegorical explanation of topic modeling](http://www.matthewjockers.net/2011/09/29/the-lda-buffet-is-now-open-or-latent-dirichlet-allocation-for-english-majors/) by Matt Jockers
-+ [Historian's Macroscope writeup](http://www.themacroscope.org/?page_id=553) on topic modeling, including some discussion of why multiple runs generate different results and instructions for using pivot tables to analyze results
-
-
-do a zip file. clarify what's the metadata file, what goes into voyant, etc
+# Project work
++ If technology were no obstacle, what would you want this project to look like?
++ What kinds of skills/tools would we need?
