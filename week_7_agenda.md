@@ -118,6 +118,11 @@ Pick an example from the Mapbox GL JS documentation and try adding it to your ma
 + [Carto](https://carto.com/) is a commonly used alternative to Mapbox. Carto seems to offer a little less flexibility in terms of map design, but it makes it much easier to add features like pop-up text and legends to your map. It should be easy to learn after working with Mapbox!
 + [Leaflet](http://leafletjs.com/) is a javascript library that can be used with Carto and other mapping programs. (See a [comparison](https://www.mapbox.com/help/mapbox-gl-js-fundamentals/) with Mapbox GL JS.)
 
+### Project work
++ If technology were no obstacle, what would you want this project to look like?
++ What kinds of skills/tools would we need?
++ Has this work with maps suggested any possibilities?
+
 ## Loose ends
 
 possible to work with historic maps?
