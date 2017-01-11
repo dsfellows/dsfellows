@@ -1,10 +1,12 @@
-# Visit to special collections
+# Anatomy of Information
+
+## Visit to special collections
 
 + How can we think of digital technologies as continuous with earlier manuscript and print cultures, rather than representing an absolute break?
 
-## Early modern information technologies
+### Early modern information technologies
 
-### One genealogy of information management practices
+#### One genealogy of information management practices
 
 + Scroll -> book -> digital text? (cf. Stallybrass)
   + A scroll needs to be read continuously. The book combines "the ability to scroll with the capacity for random access," and digital texts do the same, offering a "scroll function" and the "ability, through bookmarks, to have our fingers in many different places at the same time, and to move rapidly from one to another" (Stallybrass, *Books and Scrolls*, 42)
@@ -14,7 +16,7 @@
     + On the alphabetized index: "At first, the alphabetic system that we take for granted was actively resisted, because it led to arbitrary relations between words and even to logical inversions, in which the created preceded the creator (Filia coming before Pater, Angelus before Deus) and inversions of social hierarchy (Filia coming before Filius, Mater before Pater)." (Stallybrass, *Books and Scrolls*, 44)
   + 15th century invention of printing press -> these developments began to be more systematically used in printed books (including consistent pagination, tables of contents, running titles)
 
-### Geneva Bible, bound with Robert Herrey's concordance (1581)
+#### Geneva Bible, bound with Robert Herrey's concordance (1581)
 
 + Translation and edition of the Bible predating the King James by 51 years; one of the first mass-produced printed Bibles to be made available to the general public
 + This is one text Stallybrass uses as an example of how early modern Bibles made new forms of discontinuous reading possible
@@ -30,11 +32,11 @@
 
 > "[M]y Macintosh computer still uses a little hand to travel around the screen and a pointing finger. And when I find a new website, I add a 'bookmark,' visualized nostalgically at the top of my screen as a blue ribbon. The navigation of computers is still imagined in the visual language that was elaborated in the fifteenth century for the navigation of books: the language of the index finger and of its prosthetic form, the bookmark." (46)
 
-### Printers' ornaments
+#### Printers' ornaments
 
 + Parallel with Bootstrap elements?
 
-## Anatomizing the language, indexing the novel
+### Anatomizing the language, indexing the novel
 
 + *A Dictionary of the English Language* (1755): one of the first comprehensive English-language dictionaries, prepared by Samuel Johnson and a group of assistants between 1746 and 1755 (copying passages by hand or physically cutting them out of the source material)
 + *Sir Charles Grandison* (1754), first edition: epistolary novel by Samuel Richardson
@@ -55,7 +57,7 @@
 
 > A clearer sense of the role indices played for Johnson might be gained by noting that Pope’s mock praise of “index-learning” might be doubly applied to its modern equivalent—database (or search-engine) learning. The apparent comprehensiveness of a modern database, in which potentially no word is left uncataloged, thoroughly relieves the reader of the obligation to read the whole of anything. And although Swift worries that “large Indexes, and little Compendiums” might come to replace real study, and the *Dunciad*’s satire gestures towards the prevalence of such study (careless, slippery, and dangerous though it may be), these satires also, perhaps despite themselves, gesture towards the usefulness of index-learning. (Valenza 222)
 
-## Note-taking and the commonplace book
+### Note-taking and the commonplace book
 
 > "Aristotle suggests that readers should “select . . . from the written handbooks of argument, and should draw up sketch-lists of them upon each several kind of subject, putting them down under separate headings, e.g. ‘On Good,’ or ‘On Life’-and that ‘On Good’ should deal with every form of good, beginning with the category of essence.” In its medieval incarnation, students (and scholars) would copy and subsequently memorize quotations gleaned from their read- ing, arranging them under various general topics. Locke recommended the same (with some suggested headings) in his seventeenth-century educational writings. The quotations thus identified could then serve as evidence for an argument." (Valenza 220)
 
@@ -64,9 +66,9 @@
 + What use might it have served for its creator?
 + How does this compare to your (digital or non-digital) notetaking practices? To forms of online information organization like the ones we've talked about?
 
-#Maps and Monuments-- how we conceptualize city and expression
+##Maps and Monuments-- how we conceptualize city and expression
 
-##Key Concepts
+###Key Concepts
 
 1. What is the relationship between a monument and the city it belongs in
 2. How does cartography change the way we conceptualize cities?
@@ -78,23 +80,23 @@
 8. What data have we gathered from Monument Lab?
 9. Group Project
 
-###William Penn City Plan of Philadelphia
+####William Penn City Plan of Philadelphia
 + What was the purpose of the map?
 + What is the data we can gather from this map?
 + Four squares of Philadelphia-- Rittenhouse (Southwest), Washington (Southeast), Logan (Northwest), and Franklin (Northeast)
 + What are the things that are most prominently featured in the Penn Plan of Philadelphia?
 
-###Interactive maps on the web
+####Interactive maps on the web
 + What is the most prominent feature of this map?
 + Can we see any traces of the Penn Plan in this map?
 + How does this map help us conceptualize Philadelphia as a city?
 
-###William Penn Statue
+####William Penn Statue
 + Is this a monument?
   + Why is this a monument?
 + What part of this is a monument?
 
-###Monument Lab
+####Monument Lab
 + Starting to think about the group project
     + What is an appropriate monument for the city of Philadelphia?
     + What is a good system that will help other people determine what an appropriate monument for the city of Philadelphia is?
@@ -110,7 +112,7 @@ Categories map: http://gsg.phila.gov/map#id=4f870d9d24634270a142713b733fcc39
 
 William Penn on City Hall Monument: http://withart.visitphilly.com/artworks/william-penn/
 
-# Set up Reclaim domains
+## Set up Reclaim domains
 
 + What is the Cpanel? Applications? File manager?
 + Make a landing page

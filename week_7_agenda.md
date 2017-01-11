@@ -1,4 +1,6 @@
-# JSON and GeoJSON
+# Mapping
+
+## JSON and GeoJSON
 
 + JSON = javascript object notation
 + A standard for storing and transmitting data. Unlike a spreadsheet, allows for nested data
@@ -6,13 +8,13 @@
 
 > GeoJSON is a format for encoding a variety of geographic data structures. GeoJSON supports the following geometry types: Point, LineString, Polygon, MultiPoint, MultiLineString, and MultiPolygon. Geometric objects with additional properties are Feature objects. Sets of features are contained by FeatureCollection objects. ([source](http://geojson.org/))
 
-# Posing questions
+## Posing questions
 
 + Look at example maps of ML data compared to historical markers and historical preservation sites in Philly [here](http://upenndigitalscholarship.org/dsfellows16/mapdemo/mapdemo.html)
 + What do these maps tell you? What do they NOT tell you? What features would you want to add?
 + With a partner, pose a question about these data sets or a subset of them that you could answer/address using a new visualization
 
-# Raw data
+## Raw data
 
 + [Monument Lab](https://www.opendataphilly.org/dataset/speculative-monuments-for-philadelphia) (CSV or GeoJSON)
 + [Historical preservation sites](http://www.preservationalliance.com/explore-philadelphia/) in Philly (CSV or GeoJSON - click "Export")
@@ -22,7 +24,7 @@ If you need to convert between CSV and JSON (or other formats), try [JSON conver
 
 LINK TO ZIP FILE
 
-# Preparing and cleaning data
+## Preparing and cleaning data
 
 + In Atom: Packages -> Settings View -> Install Packages/Themes. Search for "pretty-json" and install. It should show up under Packages menu. Click "Prettify" to add white space/indents to your JSON file to make it more readable
 + What's in your GeoJSON files?
@@ -35,7 +37,7 @@ in the historical resources dataset, labels for latitude and longitude coordinat
 
 experiment with editing/paring down the dataset within mapbox- or is it easier to do in an outside program like openrefine/excel? try both?
 
-# Using Mapbox
+## Using Mapbox
 
 Try uploading your data and creating a visualization in [Mapbox](https://www.mapbox.com/). You'll need to create a free account first.
 
@@ -45,19 +47,19 @@ Basic workflow:
 + Export to tileset (which prepares your dataset to be used in a visualization)
 + Create a style and add tilesets to it. This is what will generate an actual map whose formatting you can change.
 
-## Tips and tricks
+### Tips and tricks
 
 + **To get your map to automatically display Philly instead of a zoomed-out view of the entire earth**: in the top right-hand corner, click: Map position -> Zoom. When you get your map zoomed and centered in the way you want, click the button for Lock default position.
 + **To add text to your map**: duplicate the layer containing the points you want to add text to. On the screen that lets you edit the layer, click Select data. Click the T icon to change the layer type to text. Then go back to the Style menu. "Text field" will let you choose what part of your data to display as text. "Halo" will add a border to your text, making it easier to read on your map.
 + **To change formatting for multiple layers at once**: control-click to select multiple layers at once. You can now edit those layers simultaneously or add them to a group using the "Group layers" icon in the top left. This will create a group of layers that you can edit all together. (Especially useful for getting text to show up in a standard font/size.)
 + **To share your map**: clicking Publish (upper left-hand corner) will give you a URL you can use to share your map. This will let viewers use the zoom feature, etc. OR click Styles -> the name of your map -> Generate static image. This will give you a URL for a flat/non-interactive image of a part of the map, and HTML you can use to put that image online.
 
-## See also
+### See also
 + [How to use style editor](https://www.mapbox.com/help/getting-started-mapbox-studio-2/)
 + [Mapbox help](https://www.mapbox.com/help/)
 
 
-# Embedding your map in a website
+## Embedding your map in a website
 
 Create an HTML file in atom. Title it something like "mapdemo.html". The page's head should look like this:
 
@@ -99,7 +101,7 @@ CHECK: INCLUDING THIS IN HEAD VS DIV?
 
 Log into your Reclaim site and use the file manager to upload the HTML file. The page with your embedded map should now be visible at yoursitename.com/mapdemo.html (or whatever you named the file).
 
-# Styling your map
+## Styling your map
 
 Mapbox GL JS is a javascript library that can be used to style/format Mapbox maps, giving you options beyond what you can do with Mapbox's web interface.
 
@@ -111,12 +113,12 @@ Can you adapt this code to display the map you just created on your Reclaim site
 
 Pick an example from the Mapbox GL JS documentation and try adding it to your map.
 
-# Additional resources
+## Additional resources
 + More on Mapbox GL JS: [The End of CartoCSS](https://www.mapbox.com/blog/the-end-of-cartocss/) and [Data-Driven Styling](https://www.mapbox.com/blog/data-driven-styling/)
 + [Carto](https://carto.com/) is a commonly used alternative to Mapbox. Carto seems to offer a little less flexibility in terms of map design, but it makes it much easier to add features like pop-up text and legends to your map. It should be easy to learn after working with Mapbox!
 + [Leaflet](http://leafletjs.com/) is a javascript library that can be used with Carto and other mapping programs. (See a [comparison](https://www.mapbox.com/help/mapbox-gl-js-fundamentals/) with Mapbox GL JS.)
 
-# Loose ends
+## Loose ends
 
 possible to work with historic maps?
 

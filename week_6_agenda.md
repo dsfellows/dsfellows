@@ -1,7 +1,9 @@
-# Monument Lab proposals
+# Data Management
+
+## Monument Lab proposals
 + What is YOUR appropriate monument for the city of Philadelphia?
 
-# Metadata: a brief introduction
+## Metadata: a brief introduction
 + Example: a [Franklin record](http://franklin.library.upenn.edu/record.html?id=FRANKLIN_50872&) for Johnson's dictionary
 + Types of metadata:
   + Descriptive (deals with content and some physical attributes - author, publisher, subject, medium, etc)
@@ -10,7 +12,7 @@
 + Tension between detail/specificity and standardization; importance of control terms (see author in Franklin record)
 + A peek behind the interface: look at a MARC record (= machine-readable cataloging)
 
-# Metadata for Monument Lab
+## Metadata for Monument Lab
 + Looking at our proposals and a few more: what kind of metadata can/should we record about these proposals?
 + What more interpretive categories might we want to add, beyond what's on the form?
 + Take your proposal and one other and try recording metadata about them in this [Google sheet](https://docs.google.com/spreadsheets/d/1jF9mQ_3x6tBwN7NIXqiGCHloE9pND46-LntBAjA8m0I/edit?usp=sharing)
@@ -23,15 +25,15 @@
 + Having done this, are there any categories you would add to the ML form?
 + How does this compare to the official ML data set?
 
-#OpenRefine
+## OpenRefine
 - What is OpenRefine
 - How is OpenRefine useful
 - How is OpenRefine useful to Digital Scholarship, and how does it define data?
 
-#OpenRefine Tutorial
+## OpenRefine Tutorial
 - Useful link: http://enipedia.tudelft.nl/wiki/OpenRefine_Tutorial
 
-# What you will need
+## What you will need
 - [OpenRefine] (http://openrefine.org)
 - [Monument Lab CSV file] (https://www.opendataphilly.org/organization/monument-lab)
 - [Link to open OpenRefine](http://127.0.0.1:3333/) (the application needs to be running first; the interface is locally hosted through your browser)
@@ -47,7 +49,7 @@ What is a CSV file?
 - Can use OpenRefine (formerly Google Refine) to parse through the data
 
 
-## Ex. 1 Sorting Data
+### Ex. 1 Sorting Data
 - What: Use OpenRefine to filter and sort through data
 - Show Text filter- filtering through data points manually
 - How to use a text Facet
@@ -58,7 +60,7 @@ What is a CSV file?
   - All the data points with number "1" will appear
 
 
-## Ex. 2 Cleaning Data
+### Ex. 2 Cleaning Data
 - What: Clean and make data entries consistent
 
 - Show: Address -> Facet (Should see names of addresses input by people)
@@ -73,10 +75,10 @@ What is a CSV file?
     - value.replace("old", "0")
     - All the "old" entries should now be under "0"
 
-# Group project conversation
+## Group project conversation
 + In small groups
 
-# Requests for next semester?
+## Requests for next semester?
 
-# Additional resources
+## Additional resources
 + ["Ontologies and Metadata"](http://dh101.humanities.ucla.edu/?page_id=35) writeup by Johanna Drucker
