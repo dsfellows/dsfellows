@@ -1,3 +1,19 @@
+# A corpus of Philadelphia-related texts, 1681-1921
+
+Download, unzip, and take a look at the contents. (LINK)
+
++ 27 texts set in or talking about Philadelphia
++ Excerpts rather than full texts when texts clearly had one section set in/about Philly, while the rest dealt with other places
++ Difficulty of finding plain-text versions - many texts have been digitized but not transcribed
++ Found these primarily through searching Project Gutenberg for the word "Philadephia"; followed up by looking for history/education-related sites with primary texts about Philadelphia, but couldn't find many with plain text
++ **Digitization is political,** meaning that this corpus is not a random or representative sample. Practitioners of computational text analysis often claim that it can help expand (or dismantle) existing literary canons by allowing us to deal with a larger volume of material, but the difficulty of finding plain-text versions of work by less canonical authors raises the possibility that this type of computational work will actually reproduce existing biases. The easiest works to find were novels by white authors and historical documents by famous white historical figures
++ Works published in the US before 1923 are automatically in the public domain, so easier to find plain text versions
+
+# Computational text analysis: the big picture
+
++ Relationship between these computational tools and concordances and indices from week 3?
++ How do the words or "topics" associated with Philadelphia compare with the topics of the monuments and markers we've looked at? What would be some appropriate monuments for the city of Philadelphia, according to these texts? What's missing?
+
 # Voyant
 
 [voyant-tools.org](http://voyant-tools.org/)
@@ -64,10 +80,3 @@ This is a Bayesian approach to probability. Thomas Bayes was an 18th century cle
 + ["Topic Modeling Made Just Simple Enough"](https://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/) by Ted Underwood (includes an explanation of the math behind topic modeling geared toward people with less of a math/CS background)
 + [A more allegorical explanation of topic modeling](http://www.matthewjockers.net/2011/09/29/the-lda-buffet-is-now-open-or-latent-dirichlet-allocation-for-english-majors/) by Matt Jockers
 + [Historian's Macroscope writeup](http://www.themacroscope.org/?page_id=553) on topic modeling, including some discussion of why multiple runs generate different results and instructions for using pivot tables to analyze results
-
-
-
-corpus assembly issues
-
-does topic modeling use n-grams? bag of words? something else?
-http://people.ee.duke.edu/~lcarin/icml2006.pdf

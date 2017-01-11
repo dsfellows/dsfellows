@@ -20,7 +20,7 @@
 
 If you need to convert between CSV and JSON (or other formats), try [JSON converter package](https://atom.io/packages/json-converter) for Atom.
 
-make a zip file of cleaned versions of these all in the same place?
+LINK TO ZIP FILE
 
 # Preparing and cleaning data
 
@@ -118,13 +118,12 @@ Pick an example from the Mapbox GL JS documentation and try adding it to your ma
 
 # Loose ends
 
-look for images of historic maps to use
+possible to work with historic maps?
 
 purple: 7B00B4 (hist markers)
 pink: ff0059 (historic resources)
 blue: 5ca2d1 (ML)
 
-https://www.mapbox.com/help/style-symbol-layer-studio/ icons etc
 
 include in zip file:
 cleaned and not cleaned versions of data sets
@@ -132,13 +131,8 @@ the code that's creating the map demo page
 any other examples of carto css, etc that are up on the website
 
 
-
 use custom styling to get:
 a legend/key
 text popups
 change something like the appearance of the points?
 option for the person looking at the map to change base map/what data it displays?
-
-https://www.mapbox.com/mapbox.js/example/v1.0.0/stylelayer/
-
-mapbox.js is built on leaflet
