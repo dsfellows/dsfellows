@@ -103,7 +103,7 @@ Log into your Reclaim site and use the file manager to upload the HTML file. The
 
 ## Styling your map
 
-Mapbox GL JS is a javascript library that can be used to style/format Mapbox maps, giving you options beyond what you can do with Mapbox's web interface.
+Mapbox GL JS is a javascript library that can be used to style/format Mapbox maps, giving you options beyond what you can do with Mapbox's web interface. See examples of maps created with GL JS [here](https://www.mapbox.com/gallery/).
 
 See examples of code that can be used to style your Mapbox map [here](https://www.mapbox.com/mapbox-gl-js/examples/). See also [my example](http://upenndigitalscholarship.org/dsfellows16/mapdemo/mapboxstyle.html) ML map with some interactive features added using Mapbox GL JS; see the code on Github (LINK). **Note that you'll need a few additional lines of code in ```<head>``` in order for the map to display properly.**
 
