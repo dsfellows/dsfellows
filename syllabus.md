@@ -32,32 +32,32 @@ Week 4 (11/10): Monument Lab conversation with Paul Farber
 
 ## Spring semester
 
-Week 7: Mapping
+Week 7 (1/23): Mapping
 + Tools for mapping monument locations
 + How do the Monument Lab proposals compare to historical marker locations and historic preservation sites in Philadelphia?
 + What do we want our project to look like? What skills, tools, data will we need to get there?
 
-Week 8: Intro to Computational Text Analysis
+Week 8 (2/6): Intro to Computational Text Analysis
 + Analyze a corpus of texts about Philadelphia using Voyant and Openrefine
 + Across these texts, how are people talking about the city? Relationship to Monument Lab, actually-existing monuments, our project work?
 
-Week 9: Text Analysis, Continued
+Week 9 (2/20): Text Analysis, Continued
 + Analyze data on Philadelphia historical markers using Stanford NER
 + How do these compare to the ML data set? To existing monuments in Philly?
 + Project work
 
-Week 10: Design
+Week 10 (3/13): Design
 + Photoshop; others?
 
-Week 11: 3D printing
+Week 11 (3/27): 3D printing
 + A workshop on 3D printing monuments
 
-Week 12: Disability and access
+Week 12 (4/10): Disability and access
 + What makes a website or project accessible, and for whom?
 + Alt-text for Monument Lab images
 + Accessible data gathering protocols?
 
-Week 13: Scholarly project management
+Week 13 (4/24): Scholarly project management
 + Methods for project management
 + Labor and collaboration
 
