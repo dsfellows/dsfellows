@@ -109,17 +109,23 @@ For reference, the bare minimum code you need to embed a Mapbox map in a webpage
 </head>
 ```
 
-Include the following in the body of the page. (The ```<script>``` tag is an alternative to writing the Javascript out in a separate file and calling it from your HTML file.)
+Include the following in the body of the page.
 
 ```
 <div id='map'></div>
-<script>
+
+<script src='SCRIPTNAME.js'></script>
+
+```
+
+And include this in a separate Javascript file:
+
+```
 mapboxgl.accessToken = '<YOUR ACCESS TOKEN HERE>';
 var map = new mapboxgl.Map({
     container: 'map',
     style: '<YOUR STYLE URL HERE>'
 });
-</script>
 ```
 
 [(source)](https://www.mapbox.com/mapbox-gl-js/api/)
@@ -141,11 +147,6 @@ possible to work with historic maps?
 purple: 7B00B4 (hist markers)
 pink: ff0059 (historic resources)
 blue: 5ca2d1 (ML)
-
-
-include in zip file:
-cleaned and not cleaned versions of data sets
-the code that's creating the map demo page
 
 
 how to display more than one field in the popup/style the text?
