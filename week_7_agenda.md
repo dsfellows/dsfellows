@@ -1,13 +1,5 @@
 # Mapping
 
-## JSON and GeoJSON
-
-+ JSON = javascript object notation
-+ A standard for storing and transmitting data. Unlike a spreadsheet, allows for nested data
-+ GeoJSON: a JSON format designed to be used with geographic data
-
-> GeoJSON is a format for encoding a variety of geographic data structures. GeoJSON supports the following geometry types: Point, LineString, Polygon, MultiPoint, MultiLineString, and MultiPolygon. Geometric objects with additional properties are Feature objects. Sets of features are contained by FeatureCollection objects. ([source](http://geojson.org/))
-
 ## Posing questions
 
 + Look at example maps of ML data compared to historical markers and historical preservation sites in Philly [here](http://upenndigitalscholarship.org/dsfellows16/mapdemo/mapdemo.html)
@@ -20,9 +12,17 @@
 + [Historical preservation sites](http://www.preservationalliance.com/explore-philadelphia/) in Philly (CSV or GeoJSON - click "Export")
 + [PA historical markers](http://www.phmc.state.pa.us/apps/historical-markers.html) (search for Philadelphia County, Export to Excel, save as CSV)
 
-If you need to convert between CSV and JSON (or other formats), try [JSON converter package](https://atom.io/packages/json-converter) for Atom.
+If you need to convert between CSV and JSON (or other formats), try [JSON converter package](https://atom.io/packages/json-converter) for Atom. (CSV -> JSON seems a little buggy.)
 
-LINK TO ZIP FILE
+## JSON and GeoJSON
+
++ JSON = javascript object notation
++ A standard for storing and transmitting data. Unlike a spreadsheet, allows for nested data
++ GeoJSON: a JSON format designed to be used with geographic data
+
+> GeoJSON is a format for encoding a variety of geographic data structures. GeoJSON supports the following geometry types: Point, LineString, Polygon, MultiPoint, MultiLineString, and MultiPolygon. Geometric objects with additional properties are Feature objects. Sets of features are contained by FeatureCollection objects. ([source](http://geojson.org/))
+
+[A more detailed look at GeoJSON structure](http://www.macwright.org/2015/03/23/geojson-second-bite.html)
 
 ## Preparing and cleaning data
 
@@ -35,7 +35,11 @@ had to clean the historical markers data set a little to get it to work as a dat
 
 in the historical resources dataset, labels for latitude and longitude coordinates are reversed ;-;
 
+it doesn't like null values in the ML data set
+
 experiment with editing/paring down the dataset within mapbox- or is it easier to do in an outside program like openrefine/excel? try both?
+
+LINK TO ZIP FILE
 
 ## Using Mapbox
 
@@ -46,6 +50,7 @@ Basic workflow:
 + Edit your dataset
 + Export to tileset (which prepares your dataset to be used in a visualization)
 + Create a style and add tilesets to it. This is what will generate an actual map whose formatting you can change.
++ To work with a subset of the data rather than the full set, click on the layer you want to edit, click Select data, and add a filter. "All of the filters" will display only the categories you indicate in the filter; "None of the filters" will hide the categories you choose.
 
 ### Tips and tricks
 
@@ -63,7 +68,7 @@ Basic workflow:
 
 Let's experiment with putting the map you just designed on your Reclaim site and changing its style with Javascript (instead of using the Mapbox style editor).
 
-Look at the mapboxstyle.html and mapboxstyle.js files (LINK). These are the files that are creating this Mapbox demo page on the DS Fellows site (LINK). The HTML file shows how the page should be displayed. Toward its end, it calls the Javascript file, which sets up some actions you can perform on the map (like pulling up pop-ups when you click on certain points).
+Look at the mapboxstyle.html and mapboxstyle.js files (LINK). These are the files that are creating this [Mapbox demo page](http://upenndigitalscholarship.org/dsfellows16/mapdemo/mapboxstyle.html) on the DS Fellows site. The HTML file shows how the page should be displayed. Toward its end, it calls the Javascript file, which sets up some actions you can perform on the map (like pulling up pop-ups when you click on certain points).
 
 Copy these files, log into Reclaim, open your file manager, and upload them to the public_html folder. What happened? Can you figure out how to view the page you just created?
 
@@ -77,7 +82,9 @@ In your HTML file, play around with the size of the map by changing the number o
 
 Now look at your Javascript file. This uses Mapbox GL JS, a javascript library that can be used to style/format Mapbox maps, giving you options beyond what you can do with Mapbox's web interface.
 
-Find the section of the file that controls the popups. Can you figure out which part of the code determines what text the popups display? Where is the data coming from? Can you change the information that's displayed?
+Find the section of the file that controls the menu. Can you change it to allow you to show/hide the different layers of your map?
+
+Now look for the section that controls the popups. Can you figure out which part of the code determines what text the popups display? Where is the data coming from? Can you change the information that's displayed?
 
 Try adding one additional Mapbox GL JS feature from the list [here](https://www.mapbox.com/mapbox-gl-js/examples/).
 
@@ -141,7 +148,6 @@ blue: 5ca2d1 (ML)
 include in zip file:
 cleaned and not cleaned versions of data sets
 the code that's creating the map demo page
-any other examples of carto css, etc that are up on the website
 
 
 how to display more than one field in the popup/style the text?

@@ -39,7 +39,7 @@ map.on('mousemove', function (e) {
 
 map.addControl(new mapboxgl.NavigationControl());
 
-var toggleableLayerIds = [ 'monument-lab', 'historic-preservation-sites', 'historical-markers' ];
+var toggleableLayerIds = [ 'monument-lab', 'historic-preservation-sites', 'historical-markers' ]; // You can fill in the layer names as they appear in Mapbox Style Editor
 
 for (var i = 0; i < toggleableLayerIds.length; i++) {
     var id = toggleableLayerIds[i];
