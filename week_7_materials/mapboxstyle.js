@@ -1,79 +1,12 @@
-<!DOCTYPE html>
-<html>
+// This tells your javascript what map style it's modifying and gives it permission to do that.
 
-<head>
-  <meta charset='utf-8' />
-  <title>Mapbox Styling Demo</title>
-  <script src='https://api.mapbox.com/mapbox-gl-js/v0.30.0/mapbox-gl.js'></script>
-  <link href='https://api.mapbox.com/mapbox-gl-js/v0.30.0/mapbox-gl.css' rel='stylesheet' />
-  <style>
-        body { margin:0; padding:0; }
-        #map { position:absolute; top:0; bottom:0; width:100%; }
-  </style>
-</head>
-
-<body>
-
-<style>
-    #menu {
-        background: #fff;
-        position: absolute;
-        z-index: 1;
-        top: 10px;
-        right: 10px;
-        border-radius: 3px;
-        width: 120px;
-        border: 1px solid rgba(0,0,0,0.4);
-        font-family: 'Open Sans', sans-serif;
-    }
-
-    #menu a {
-        font-size: 13px;
-        color: #404040;
-        display: block;
-        margin: 0;
-        padding: 0;
-        padding: 10px;
-        text-decoration: none;
-        border-bottom: 1px solid rgba(0,0,0,0.25);
-        text-align: center;
-    }
-
-    #menu a:last-child {
-        border: none;
-    }
-
-    #menu a:hover {
-        background-color: #f8f8f8;
-        color: #404040;
-    }
-
-    #menu a.active {
-        background-color: #3887be;
-        color: #ffffff;
-    }
-
-    #menu a.active:hover {
-        background: #3074a4;
-    }
-</style>
-
-<style>
-    .mapboxgl-popup {
-        max-width: 400px;
-        font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
-    }
-</style>
-
-<nav id="menu"></nav>
-
-<div id='map' style='width: 100%; height: 520px;'></div> <!-- Adjust map height here -->
-<script>
 mapboxgl.accessToken = 'pk.eyJ1IjoieWRzaGlyb21hIiwiYSI6ImNpeGo5d2JuNjAwNWQyd28wZGRlc2NoazYifQ.PK8UhAmtIWhmUnzlB7w3Ug'; // Your access token here
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/ydshiroma/cixrspjjq00142rn2pbtteoe7' // Your style URL here
 });
+
+// This creates popups that show the Monument Lab proposal titles.
 
 // When a click event occurs near a place, open a popup at the location of
 // the feature, with description HTML from its properties.
@@ -100,6 +33,9 @@ map.on('mousemove', function (e) {
     var features = map.queryRenderedFeatures(e.point, { layers: ['places'] });
     map.getCanvas().style.cursor = (features.length) ? 'pointer' : '';
 });
+
+
+// This creates the menu that lets you show and hide different layers.
 
 map.addControl(new mapboxgl.NavigationControl());
 
@@ -132,9 +68,3 @@ for (var i = 0; i < toggleableLayerIds.length; i++) {
     var layers = document.getElementById('menu');
     layers.appendChild(link);
 }
-
-</script>
-
-</body>
-
-</html>
