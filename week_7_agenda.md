@@ -37,8 +37,6 @@ in the historical resources dataset, labels for latitude and longitude coordinat
 
 it doesn't like null values in the ML data set
 
-experiment with editing/paring down the dataset within mapbox- or is it easier to do in an outside program like openrefine/excel? try both?
-
 LINK TO ZIP FILE
 
 ## Using Mapbox
