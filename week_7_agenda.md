@@ -81,7 +81,7 @@ Find the section of the file that controls the popups. Can you figure out which 
 
 Try adding one additional Mapbox GL JS feature from the list [here](https://www.mapbox.com/mapbox-gl-js/examples/).
 
-## Resources
+### Resources
 + Examples of maps created with GL JS [here](https://www.mapbox.com/gallery/).
 + [Examples](https://www.mapbox.com/mapbox-gl-js/examples/) of Mapbox GL JS code
 + [Documentation](https://www.mapbox.com/mapbox-gl-js/example/set-popup/) for Mapbox GL JS popups specifically
@@ -124,14 +124,12 @@ var map = new mapboxgl.Map({
 + [Leaflet](http://leafletjs.com/) is a javascript library that can be used with Carto and other mapping programs. (See a [comparison](https://www.mapbox.com/help/mapbox-gl-js-fundamentals/) with Mapbox GL JS.)
 
 ## Project work
-+ If technology were no obstacle, what would you want this project to look like?
-+ What kinds of skills/tools would we need?
-+ Has this work with maps suggested any possibilities?
++ How could this mapping work fit into our project?
++ Gathering and presenting info on different lab sites
 
 
 
-
-## Loose ends
+# Loose ends
 
 possible to work with historic maps?
 
