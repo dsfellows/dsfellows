@@ -23,14 +23,14 @@ map.on('click', function (e) {
     // based on the feature found.
     var name = "Name: ", transcription = "Transcription: ", url = "URL: ";
     var proposalName = feature.properties.name, proposalTranscription = feature.properties.transcript, proposalUrl = feature.properties.form_image_b;
-    if (proposalName == null) {
-      proposalName == "[None]";
+    if (proposalName == "") {
+      proposalName = "None";
     }
-    if (proposalTranscription == null) {
-      proposalName == "[None]";
+    if (proposalTranscription == "") {
+      proposalTranscription = "None";
     }
-    if (proposalUrl == null) {
-      proposalName == "[None]";
+    if (proposalUrl == "") {
+      proposalUrl = "None";
     }
     var popup = new mapboxgl.Popup()
         .setLngLat(feature.geometry.coordinates)

@@ -12,6 +12,8 @@
 + [Historical preservation sites](http://www.preservationalliance.com/explore-philadelphia/) in Philly (CSV or GeoJSON - click "Export")
 + [PA historical markers](http://www.phmc.state.pa.us/apps/historical-markers.html) (search for Philadelphia County, Export to Excel, save as CSV)
 
+CSV and JSON will both work for our purposes, but try downloading at least one of these as JSON so we can get some practice working with it.
+
 If you need to convert between CSV and JSON (or other formats), try [JSON converter package](https://atom.io/packages/json-converter) for Atom. (CSV -> JSON seems a little buggy.)
 
 ## JSON and GeoJSON
@@ -31,21 +33,12 @@ If you need to convert between CSV and JSON (or other formats), try [JSON conver
 + Try uploading data to Mapbox
 + When you get error messages, what's causing them?
 
-had to clean the historical markers data set a little to get it to work as a dataset: latitude was misspelled as "lattitude," coordinates for two rows were blank. have everyone troubleshoot this
-
-in the historical resources dataset, labels for latitude and longitude coordinates are reversed ;-;
-
-it doesn't like null values in the ML data set
-
-LINK TO ZIP FILE
-
 ## Using Mapbox
 
 Try uploading your data and creating a visualization in [Mapbox](https://www.mapbox.com/). You'll need to create a free account first.
 
 Basic workflow:
 + Upload a dataset (can be CSV or GeoJSON)
-+ Edit your dataset
 + Export to tileset (which prepares your dataset to be used in a visualization)
 + Create a style and add tilesets to it. This is what will generate an actual map whose formatting you can change.
 + To work with a subset of the data rather than the full set, click on the layer you want to edit, click Select data, and add a filter. "All of the filters" will display only the categories you indicate in the filter; "None of the filters" will hide the categories you choose.
@@ -131,24 +124,10 @@ var map = new mapboxgl.Map({
 [(source)](https://www.mapbox.com/mapbox-gl-js/api/)
 
 ## Additional mapping resources
++ [Working with historical maps](https://www.mapbox.com/blog/historic-boston-in-dataset-editor/) in Mapbox
 + [Carto](https://carto.com/) is a commonly used alternative to Mapbox. Carto seems to offer a little less flexibility in terms of map design, but it makes it much easier to add features like pop-up text and legends to your map. It should be easy to learn after working with Mapbox!
 + [Leaflet](http://leafletjs.com/) is a javascript library that can be used with Carto and other mapping programs. (See a [comparison](https://www.mapbox.com/help/mapbox-gl-js-fundamentals/) with Mapbox GL JS.)
 
 ## Project work
 + How could this mapping work fit into our project?
 + Gathering and presenting info on different lab sites
-
-
-
-# Loose ends
-
-possible to work with historic maps?
-
-purple: 7B00B4 (hist markers)
-pink: ff0059 (historic resources)
-blue: 5ca2d1 (ML)
-
-
-how to display more than one field in the popup/style the text?
-move nav thingy and menu so they're not on top of each other?
-change menu text? (also, have everyone figure out how that menu works)
