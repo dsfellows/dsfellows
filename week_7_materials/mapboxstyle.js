@@ -11,7 +11,7 @@ var map = new mapboxgl.Map({
 // When a click event occurs near a place, open a popup at the location of
 // the feature, with description HTML from its properties.
 map.on('click', function (e) {
-    var features = map.queryRenderedFeatures(e.point, { layers: ['monument-lab'] });
+    var features = map.queryRenderedFeatures(e.point, { layers: ['Monument Lab'] });
 
     if (!features.length) {
         return;
@@ -22,19 +22,9 @@ map.on('click', function (e) {
     // Populate the popup and set its coordinates
     // based on the feature found.
     var name = "Name: ", transcription = "Transcription: ", url = "URL: ";
-    var proposalName = feature.properties.name, proposalTranscription = feature.properties.transcript, proposalUrl = feature.properties.form_image_b;
-    if (proposalName == "") {
-      proposalName = "None";
-    }
-    if (proposalTranscription == "") {
-      proposalTranscription = "None";
-    }
-    if (proposalUrl == "") {
-      proposalUrl = "None";
-    }
     var popup = new mapboxgl.Popup()
         .setLngLat(feature.geometry.coordinates)
-        .setHTML(name.bold() + proposalName + '<br><br>' + transcription.bold() + proposalTranscription + '\n \n' + url.bold() + proposalUrl)
+        .setHTML(name.bold() + feature.properties.name + ' \n \n ' + transcription.bold() + feature.properties.transcript +  ' \n \n ' + url.bold() + feature.properties.form_image_b)
         .addTo(map);
 });
 
