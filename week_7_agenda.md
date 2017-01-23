@@ -59,7 +59,7 @@ Basic workflow:
 
 Let's experiment with putting the map you just designed on your Reclaim site and changing its style with Javascript (instead of using the Mapbox style editor).
 
-Look at the mapboxstyle.html and mapboxstyle.js files (LINK). These are the files that are creating this [Mapbox demo page](http://upenndigitalscholarship.org/dsfellows16/mapdemo/mapboxstyle.html) on the DS Fellows site. The HTML file shows how the page should be displayed. Toward its end, it calls the Javascript file, which sets up some actions you can perform on the map (like pulling up pop-ups when you click on certain points).
+Look at the [mapboxstyle.html](https://github.com/dsfellows/dsfellows/blob/master/week_7_materials/mapboxstyle.html) and [mapboxstyle.js](https://github.com/dsfellows/dsfellows/blob/master/week_7_materials/mapboxstyle.js) files (LINK). These are the files that are creating this [Mapbox demo page](http://upenndigitalscholarship.org/dsfellows16/mapdemo/mapboxstyle.html) on the DS Fellows site. The HTML file shows how the page should be displayed. Toward its end, it calls the Javascript file, which sets up some actions you can perform on the map (like pulling up pop-ups when you click on certain points).
 
 Copy these files, log into Reclaim, open your file manager, and upload them to the public_html folder. What happened? Can you figure out how to view the page you just created?
 
