@@ -84,6 +84,7 @@ Try adding one additional Mapbox GL JS feature from the list [here](https://www.
 + [Examples](https://www.mapbox.com/mapbox-gl-js/examples/) of Mapbox GL JS code
 + [Documentation](https://www.mapbox.com/mapbox-gl-js/example/set-popup/) for Mapbox GL JS popups specifically
 + [Example GL JS map](https://www.mapbox.com/blog/the-end-of-cartocss/) with the [code](https://gist.github.com/tmcw/559e817b09a7b8325928038e6f086b2e) used to create it
++ GeoJson generator online, using interactive map, to create your own GeoJson Files [here] (http://geojson.io/#map=14/39.9590/-75.1919).
 
 ## The basics
 
