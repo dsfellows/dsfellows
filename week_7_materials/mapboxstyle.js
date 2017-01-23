@@ -21,9 +21,20 @@ map.on('click', function (e) {
 
     // Populate the popup and set its coordinates
     // based on the feature found.
+    var name = "Name: ", transcription = "Transcription: ", url = "URL: ";
+    var proposalName = feature.properties.name, proposalTranscription = feature.properties.transcript, proposalUrl = feature.properties.form_image_b;
+    if (proposalName == "") {
+      proposalName = "None";
+    }
+    if (proposalTranscription == "") {
+      proposalTranscription = "None";
+    }
+    if (proposalUrl == "") {
+      proposalUrl = "None";
+    }
     var popup = new mapboxgl.Popup()
         .setLngLat(feature.geometry.coordinates)
-        .setHTML(feature.properties.name)
+        .setHTML(name.bold() + proposalName + '<br><br>' + transcription.bold() + proposalTranscription + '\n \n' + url.bold() + proposalUrl)
         .addTo(map);
 });
 
@@ -34,12 +45,13 @@ map.on('mousemove', function (e) {
     map.getCanvas().style.cursor = (features.length) ? 'pointer' : '';
 });
 
-
-// This creates the menu that lets you show and hide different layers.
+// This creates the Mapbox navigation control, which lets you zoom in and out.
 
 map.addControl(new mapboxgl.NavigationControl());
 
-var toggleableLayerIds = [ 'monument-lab', 'historic-preservation-sites', 'historical-markers' ]; // You can fill in the layer names as they appear in Mapbox Style Editor
+// This creates the menu that lets you show and hide different layers.
+
+var toggleableLayerIds = [ 'Monument Lab', 'Historic Preservation Sites', 'Historical Markers']; // Fill in the layer names as they appear in Mapbox Style Editor
 
 for (var i = 0; i < toggleableLayerIds.length; i++) {
     var id = toggleableLayerIds[i];
