@@ -33,6 +33,10 @@ If you need to convert between CSV and JSON (or other formats), try [JSON conver
 + Try uploading data to Mapbox
 + When you get error messages, what's causing them?
 
+## Viewing CSV in Atom
++ In Atom: Packages -> Settings View -> Install Pacakges/Themes. Search for "tablr" and install. Close out all files on Atom and restart Atom. When you open your CSV file, Atom should automatically ask you if you would like to view in Table or Text mode. Click on "Table" to view your CSV as a table.
++ To change the CSV view, restart Atom, and select a different option. 
+
 ## Using Mapbox
 
 Try uploading your data and creating a visualization in [Mapbox](https://www.mapbox.com/). You'll need to create a free account first.
