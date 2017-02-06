@@ -12,6 +12,7 @@ Examples
 + Topic of monument (social, religion, movement, gender)
 + History of location (what happened in that specific area-- any correlation to the monument itself?)
 + What monuments/markers for this area appear in the [Monument Lab](https://www.opendataphilly.org/dataset/speculative-monuments-for-philadelphia), [historical preservation](http://www.preservationalliance.com/explore-philadelphia/), and [historical marker](http://www.phmc.state.pa.us/apps/historical-markers.html) data sets?
+  + See also: [map of those data sets](http://upenndigitalscholarship.org/dsfellows16/mapdemo/mapdemo.html)
 
 ##Presentation
 + Present your findings to your peers, and brainstorm methods to represent this data on a map
