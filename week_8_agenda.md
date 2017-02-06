@@ -1,14 +1,17 @@
 #Project Work- Mapping Monuments and Philadelphia's collective memory
 
+##Format for project?
++ App (iPhone or Android) vs mobile site?
+
 ##Research
-+ Locations for Monument Lab '17 will be announced on Thursday 2 February
-+ In groups of two, pick a monument that already exists in that area and research
++ Locations for Monument Lab '17 have been announced; go to [this page](https://www.muralarts.org/artworks/monumentlab/) and scroll down
++ In groups of two, research the area and what monuments exist there
 
 Examples
 + Type of monument (sculpture, statue etc.)
 + Topic of monument (social, religion, movement, gender)
 + History of location (what happened in that specific area-- any correlation to the monument itself?)
-+ Cross-reference with any [Monument Lab](https://www.opendataphilly.org/dataset/speculative-monuments-for-philadelphia), [historical preservation](http://www.preservationalliance.com/explore-philadelphia/), and [historical marker](http://www.phmc.state.pa.us/apps/historical-markers.html) data that we have to see the significance that other people attribute to the area
++ What monuments/markers for this area appear in the [Monument Lab](https://www.opendataphilly.org/dataset/speculative-monuments-for-philadelphia), [historical preservation](http://www.preservationalliance.com/explore-philadelphia/), and [historical marker](http://www.phmc.state.pa.us/apps/historical-markers.html) data sets?
 
 ##Presentation
 + Present your findings to your peers, and brainstorm methods to represent this data on a map
