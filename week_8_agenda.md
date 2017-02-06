@@ -22,3 +22,5 @@ Examples
 ##Mapping data
 + Use Mapbox to represent your data
 + Goal: have a prototype of a map by the end of the session
+
+## Syllabus requests?
