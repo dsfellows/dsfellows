@@ -47,7 +47,7 @@ Week 9 (2/20): Intro to Computational Text Analysis
 
 Week 10 (3/13): Ying teaches Illustrator
 
-Week 11 (3/27): Video?
+Week 11 (3/27): Video editing workshop
 
 Week 12 (4/10): App design?
 
