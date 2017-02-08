@@ -37,31 +37,34 @@ Week 7 (1/23): Mapping
 + How do the Monument Lab proposals compare to historical marker locations and historic preservation sites in Philadelphia?
 + What do we want our project to look like? What skills, tools, data will we need to get there?
 
-Week 8 (2/6): Mapping, Continued
+Week 8 (2/6): Project Work
 + Look at Monument Lab proposal sites
-+ Draft a visualization on Mapbox
++ Research and brainstorm how to present info on each one
 
 Week 9 (2/20): Intro to Computational Text Analysis
 + Analyze a corpus of texts about Philadelphia using Voyant and Openrefine
 + Across these texts, how are people talking about the city? Relationship to Monument Lab, actually-existing monuments, our project work?
 
-Week 10 (3/13): Text Analysis, Continued
-+ Analyze data on Philadelphia historical markers using Stanford NER
-+ How do these compare to the ML data set? To existing monuments in Philly?
-+ Project work
+Week 10 (3/13): Ying teaches Illustrator
 
-Week 11 (3/27): Design
+Week 11 (3/27): Video?
 
-Week 12 (4/10): Disability and access
+Week 12 (4/10): App design?
+
+Week 13 (4/24): ???
+
+Disability and access
 + What makes a website or project accessible, and for whom?
 + Alt-text for Monument Lab images
 + Accessible data gathering protocols?
 
-Week 13 (4/24): Scholarly project management
+Scholarly project management
 + Methods for project management
 + Labor and collaboration
 
-Week 14: Copyright
+Copyright
 + Crash course on the history and legal issues involved in copyright
 + Open access and institutional repositories
 + Design a copyright protocol for Monument Lab
+
+Refresher on web design and Reclaim? Maps?
