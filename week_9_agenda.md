@@ -1,21 +1,23 @@
 # Intro to Computational Text Analysis
 
+## Computational text analysis: the big picture
+
++ How can we get a sense of what's in a large corpus of text without reading every word? Or: how can we re-see the contents of a text or corpus of texts we've read?
++ Applications in humanities, social sciences
++ Relationship between these computational tools and pre-digital means of organizing and indexing large amounts of information from week 3? (concordances, indices)
+
 ## A corpus of Philadelphia-related texts, 1681-1921
 
 Download, unzip, and take a look at the contents. (LINK)
 
 + 27 texts set in or talking about Philadelphia
-+ Excerpts rather than full texts when texts clearly had one section set in/about Philly, while the rest dealt with other places
-+ Difficulty of finding plain-text versions - many texts have been digitized but not transcribed
-+ Found these primarily through searching Project Gutenberg for the word "Philadephia"; followed up by looking for history/education-related sites with primary texts about Philadelphia, but couldn't find many with plain text
-+ **Digitization is political,** meaning that this corpus is not a random or representative sample. Practitioners of computational text analysis often claim that it can help expand (or dismantle) existing literary canons by allowing us to deal with a larger volume of material, but the difficulty of finding plain-text versions of work by less canonical authors raises the possibility that this type of computational work will actually reproduce existing biases. The easiest works to find were novels by white authors and historical documents by famous white historical figures
-+ Works published in the US before 1923 are automatically in the public domain, so easier to find plain text versions
-
-## Computational text analysis: the big picture
-
-+ One way to get a sense of what's in this large-ish corpus without reading every text ourselves (though results still require interpretation)
-+ Relationship between these computational tools and concordances and indices from week 3? ("bag of words" and ngram models)
-+ How do the words or "topics" associated with Philadelphia compare with the topics of the monuments and markers we've looked at? What would be some appropriate monuments for the city of Philadelphia, according to these texts? What's missing?
+  + Excerpts rather than full texts when texts clearly had one section set in/about Philly, while the rest dealt with other places
++ Found these primarily through searching Project Gutenberg for the word "Philadephia"; followed up by looking for history/education-related sites with primary texts about Philadelphia
++ Difficulty of finding plain-text versions
+  + Many texts have been digitized but not transcribed
+  + Works published in the US before 1923 are automatically in the public domain, but harder to find materials from after 1923
+  + **Digitization is political** - easiest to find works by relatively canonical white authors and historical documents by famous white historical figures. Computational text analysis may have the potential to let us better understand unread, understudied, and non-canonical works, but it can also reproduce existing biases
++ What can we learn from this corpus about how people have written about Philadelphia from the 17th-20th centuries? (Or: about what's been digitized and transcribed from those centuries?) What do these texts suggest might be an appropriate monument for the city of Philadelphia? What's missing?
 
 ## Voyant
 
@@ -57,11 +59,18 @@ Download, unzip, and take a look at the contents. (LINK)
 + Running a topic model multiple times will give you different results each time
 
 > [W]e instruct the computer to pick topics for us, and it begins with a series of blind guesses, assigning words to bins at random. The computer knows a warehouse full of word bins exists, but it cannot see inside it. The topic model is the computer’s attempt at inferring the contents of each bin by looking at each document and working backwards to the topic bins it likely drew from. The computer starts from the assumption that if several documents contain the same groups of words, those words likely form a ‘topic’. As the computer scans through the text over and over again, it reorganizes its initially random bins into closer and closer approximations of what it guesses the “real” topic bins must look like. Internally, the computer is optimizing for this problem: given a distribution of words over an entire collection of documents, what is the probability that this distribution of words within a document belong to a particular topic?
-This is a Bayesian approach to probability. Thomas Bayes was an 18th century clergyman who dabbled in mathematics. He was interested in problems of conditional probabilities, in light of prior knowledge.1 The formula which now bears Bayes’ name depends on assigning a prior probability, and then re-evaluating that probability in the light of what it finds. As the computer goes through this process over and over for each word in the collection, it changes its assumptions about the distribution. [source](http://www.themacroscope.org/?page_id=553)
+
+> This is a Bayesian approach to probability. Thomas Bayes was an 18th century clergyman who dabbled in mathematics. He was interested in problems of conditional probabilities, in light of prior knowledge. The formula which now bears Bayes’ name depends on assigning a prior probability, and then re-evaluating that probability in the light of what it finds. As the computer goes through this process over and over for each word in the collection, it changes its assumptions about the distribution. [source](http://www.themacroscope.org/?page_id=553)
 
 ### In practice
-+ Download Scott Enderle's [Topic Modeling Tool](https://github.com/senderle/topic-modeling-tool) from Github. This will give you a graphical user interface that you can use to run the most common algorithm used for topic modeling (as opposed to running it from the command line). It also lets you input metadata as part of your corpus and use it to analyze your topics.
-+ Follow [these instructions](https://senderle.github.io/topic-modeling-tool/documentation/2017/01/06/quickstart.html) to use the tool. Once you've gotten the tool to generate output you can work with, get into groups of two or three.
+
+[Download the Topic Modeling Tool (by Scott Enderle, from the Penn libraries!).](https://github.com/senderle/topic-modeling-tool) NOTE: Mac and PC require different versions. Scroll down the page for an explanation.
+
+[And take a look at the instructions for running the tool!](https://senderle.github.io/topic-modeling-tool/documentation/2017/01/06/quickstart.html)
+
++ This will give you a graphical user interface that you can use to run the most common algorithm used for topic modeling (as opposed to running it from the command line). It also lets you input metadata as part of your corpus and use it to analyze your topics.
++ Work through the instructions to generate a topic model of the corpus. Make sure you include the metadata.csv file (in the zip file you downloaded)
++ Once you've gotten the tool to generate output you can work with, get into groups of two or three.
 
 ### Questions
 + How do your topics compare to your partners'? To Voyant's list of most frequently used words in the corpus?
@@ -71,6 +80,7 @@ This is a Bayesian approach to probability. Thomas Bayes was an 18th century cle
 + Can you connect your findings back to Monument Lab?
 
 ## Additional resources
++ [JSTOR topicgraph](https://labs.jstor.org/topicgraph/): beta version of a tool that topic models scholarly monographs and visualizes the results; also possible to run on your own documents
 + ["Topic Modeling: A Basic Introduction"](http://journalofdigitalhumanities.org/2-1/topic-modeling-a-basic-introduction-by-megan-r-brett/) by Megan R. Brett
 + ["Topic Modeling Made Just Simple Enough"](https://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/) by Ted Underwood (includes an explanation of the math behind topic modeling geared toward people with less of a math/CS background)
 + [A more allegorical explanation of topic modeling](http://www.matthewjockers.net/2011/09/29/the-lda-buffet-is-now-open-or-latent-dirichlet-allocation-for-english-majors/) by Matt Jockers
