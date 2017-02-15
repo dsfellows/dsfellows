@@ -8,7 +8,7 @@
 
 ## A corpus of Philadelphia-related texts, 1681-1921
 
-[Download, unzip, and take a look at the contents.](https://github.com/dsfellows/dsfellows/blob/master/week_8_materials.zip)
+[Download, unzip, and take a look at the contents.](https://github.com/dsfellows/dsfellows/blob/master/week_9_materials.zip)
 
 + 27 texts set in or talking about Philadelphia
   + Excerpts rather than full texts when texts clearly had one section set in/about Philly, while the rest dealt with other places
@@ -25,7 +25,7 @@
 
 ### Basics
 + A browser-based tool that lets you upload one or several documents, then run basic forms of text analysis (mostly involving word frequency) on them
-+ Upload multiple documents using a zip file - compress the 'corpus' folder in the file you just downloaded and upload that
++ Upload multiple documents using a zip file - you'll want the Philadelphia-corpus.zip file within the zip file you just downloaded
 + What's being displayed in each of these boxes?
 + Summary box: what's in this corpus?
 + Is there information you might want that ISN'T displayed?
