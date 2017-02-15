@@ -49,9 +49,9 @@ Week 10 (3/13): Ying teaches Illustrator
 
 Week 11 (3/27): Video editing workshop
 
-Week 12 (4/10): App design?
+Week 12 (4/10): App design
 
-Week 13 (4/24): ???
+Week 13 (4/24): More app design? Project logistics? Data refuge?
 
 Disability and access
 + What makes a website or project accessible, and for whom?

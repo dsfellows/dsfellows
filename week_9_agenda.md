@@ -8,7 +8,7 @@
 
 ## A corpus of Philadelphia-related texts, 1681-1921
 
-Download, unzip, and take a look at the contents. (LINK)
+[Download, unzip, and take a look at the contents.](https://github.com/dsfellows/dsfellows/blob/master/week_8_materials.zip)
 
 + 27 texts set in or talking about Philadelphia
   + Excerpts rather than full texts when texts clearly had one section set in/about Philly, while the rest dealt with other places
@@ -25,7 +25,7 @@ Download, unzip, and take a look at the contents. (LINK)
 
 ### Basics
 + A browser-based tool that lets you upload one or several documents, then run basic forms of text analysis (mostly involving word frequency) on them
-+ Upload multiple documents using a zip file
++ Upload multiple documents using a zip file - compress the 'corpus' folder in the file you just downloaded and upload that
 + What's being displayed in each of these boxes?
 + Summary box: what's in this corpus?
 + Is there information you might want that ISN'T displayed?
@@ -64,7 +64,7 @@ Download, unzip, and take a look at the contents. (LINK)
 
 ### In practice
 
-[Download the Topic Modeling Tool (by Scott Enderle, from the Penn libraries!).](https://github.com/senderle/topic-modeling-tool) NOTE: Mac and PC require different versions. Scroll down the page for an explanation.
+[Download the Topic Modeling Tool (by Scott Enderle, from the Penn libraries!).](https://github.com/senderle/topic-modeling-tool) NOTE: Mac and PC require different versions. Scroll down to see which file you should download.
 
 [And take a look at the instructions for running the tool!](https://senderle.github.io/topic-modeling-tool/documentation/2017/01/06/quickstart.html)
 
@@ -85,6 +85,3 @@ Download, unzip, and take a look at the contents. (LINK)
 + ["Topic Modeling Made Just Simple Enough"](https://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/) by Ted Underwood (includes an explanation of the math behind topic modeling geared toward people with less of a math/CS background)
 + [A more allegorical explanation of topic modeling](http://www.matthewjockers.net/2011/09/29/the-lda-buffet-is-now-open-or-latent-dirichlet-allocation-for-english-majors/) by Matt Jockers
 + [Historian's Macroscope writeup](http://www.themacroscope.org/?page_id=553) on topic modeling, including some discussion of why multiple runs generate different results and instructions for using pivot tables to analyze results
-
-
-do a zip file. clarify what's the metadata file, what goes into voyant, etc
