@@ -3,6 +3,7 @@
 ## Computational text analysis: the big picture
 
 + How can we get a sense of what's in a large corpus of text without reading every word? Or: how can we re-see the contents of a text or corpus of texts we've read?
++ Distant reading?
 + Applications in humanities, social sciences
 + Relationship between these computational tools and pre-digital means of organizing and indexing large amounts of information from week 3? (concordances, indices)
 
@@ -69,13 +70,14 @@
 [And take a look at the instructions for running the tool!](https://senderle.github.io/topic-modeling-tool/documentation/2017/01/06/quickstart.html)
 
 + This will give you a graphical user interface that you can use to run the most common algorithm used for topic modeling (as opposed to running it from the command line). It also lets you input metadata as part of your corpus and use it to analyze your topics.
-+ Work through the instructions to generate a topic model of the corpus. Make sure you include the metadata.csv file (in the zip file you downloaded)
++ Work through the instructions to generate a topic model of the corpus. **Make sure you include the metadata.csv file (in the zip file you downloaded).**
 + Once you've gotten the tool to generate output you can work with, get into groups of two or three.
 
 ### Questions
 + How do your topics compare to your partners'? To Voyant's list of most frequently used words in the corpus?
 + Pick one topic from your output and analyze it together. How do these words relate (or not) to each other? Is this topic disproportionately common in a particular text or texts? What's in those texts?
 + Try adjusting the number of topics and words and running the tool again (just create a new folder for your output). What changes when you change the parameters? Does one set of results interest you more than another?
++ Under Optional Settings -> Divide input into n-word chunks, try entering a number. The tool will automatically split the files you input into smaller documents (of 100 words, 1,000 words, 10,000 words, or whatever other number you input). How does this change your results?
 + Come up with a question about the corpus and see if you can answer it using pivot tables (the TMT instructions will tell you how to do this)
 + Can you connect your findings back to Monument Lab?
 
