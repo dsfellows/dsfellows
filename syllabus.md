@@ -32,16 +32,16 @@ Week 4 (11/10): Monument Lab conversation with Paul Farber
 
 ## Spring semester
 
-Week 7 (1/23): Mapping
+[Week 7 (1/23): Mapping](https://github.com/dsfellows/dsfellows/blob/master/week_7_agenda.md)
 + Tools for mapping monument locations
 + How do the Monument Lab proposals compare to historical marker locations and historic preservation sites in Philadelphia?
 + What do we want our project to look like? What skills, tools, data will we need to get there?
 
-Week 8 (2/6): Project Work
+[Week 8 (2/6): Project Work](https://github.com/dsfellows/dsfellows/blob/master/week_8_agenda.md)
 + Look at Monument Lab proposal sites
 + Research and brainstorm how to present info on each one
 
-Week 9 (2/20): Intro to Computational Text Analysis
+[Week 9 (2/20): Intro to Computational Text Analysis](https://github.com/dsfellows/dsfellows/blob/master/week_9_agenda.md)
 + Analyze a corpus of texts about Philadelphia using Voyant and Openrefine
 + Across these texts, how are people talking about the city? Relationship to Monument Lab, actually-existing monuments, our project work?
 
