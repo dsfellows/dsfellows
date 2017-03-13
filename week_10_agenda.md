@@ -7,6 +7,7 @@
 
 ##Tutorial
 For the exercise, you will need to access the lesson materials [here] (https://drive.google.com/drive/folders/0B5IR-0UTxTQQWWdSbkxFeWt6Zj).
+(The materials can also be found in this repository as week_10_materials.zip)
 
 1.	Interface
 2.	Artboards and layers
