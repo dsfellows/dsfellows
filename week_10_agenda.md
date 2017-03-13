@@ -6,7 +6,7 @@
 + Log on to AirPennNet with your Penn ID and password
 
 ##Tutorial
-For the exercise, you will need to access the lesson materials [here] (https://drive.google.com/drive/folders/0B5IR-0UTxTQQWWdSbkxFeWt6Zj).
+For the exercise, you will need to access the lesson materials [here] (https://drive.google.com/drive/folders/0B5IR-0UTxTQQWWdSbkxFeWt6ZjA?usp=sharing).
 (The materials can also be found in this repository as week_10_materials.zip)
 
 1.	Interface
