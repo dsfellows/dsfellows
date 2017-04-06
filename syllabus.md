@@ -49,9 +49,9 @@ Week 10 (3/13): Ying teaches Illustrator
 
 Week 11 (3/27): Video editing workshop
 
-Week 12 (4/10): App design
+Week 12 (4/10): Reclaim/Jekyll refresher
 
-Week 13 (4/24): More app design? Project logistics? Data refuge?
+Week 13 (4/24): Data Refuge
 
 Disability and access
 + What makes a website or project accessible, and for whom?
@@ -66,5 +66,3 @@ Copyright
 + Crash course on the history and legal issues involved in copyright
 + Open access and institutional repositories
 + Design a copyright protocol for Monument Lab
-
-Refresher on web design and Reclaim? Maps?
