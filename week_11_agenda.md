@@ -1,5 +1,7 @@
 # Personal/project website examples
 
+[Marisa Parham - academic personal website with bio, CV, digital projects, writing](http://mp285.com/)
+
 # Brainstorm: what could you do with your domain?
 
 # Reclaim basics
