@@ -1,6 +1,8 @@
 # Personal/project website examples
 
-[Marisa Parham - academic personal website with bio, CV, digital projects, writing](http://mp285.com/)
+[Marisa Parham - hand-coded academic personal website with bio, CV, digital projects, writing](http://mp285.com/)
+
+[Personal website using Jekyll - by Laurie!](http://www.laurieallen.org/)
 
 [Nabil Kashyup- minimalist portfolio website](http://www.nabilk.com/)
 
