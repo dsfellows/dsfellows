@@ -6,6 +6,8 @@
 
 [Nabil Kashyup- minimalist portfolio website](http://www.nabilk.com/)
 
+[Ed Clews - art portfolio made with Jekyll](https://edclews.com/)
+
 # Brainstorm: what could you do with your domain?
 
 # Reclaim basics
