@@ -26,9 +26,6 @@ What's in the CSS and JS folders? Can you figure out how to view these files on 
 
 You can also use various applications to build/design your site for you instead of coding it yourself (for example, Wordpress or Omeka). Go back to your cPanel and click All Applications. Scroll through the options. Try installing one. What happens (in the file manager, and to the 'front end' of your site)?
 
-#Uploading HTML5up Files onto Reclaim
-https://labrumfield.com/site-publisher-html-5-up/
-
 # The future
 
 Your Reclaim account will expire in a year. If you want to keep your site, you'll have the option to either renew it for $30/year or transfer your site to a free hosting service.
