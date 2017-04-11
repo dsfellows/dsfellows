@@ -53,24 +53,27 @@ Continue work on a Jekyll site that you'll be able to host on your Github (or po
 
 # Addendum: uploading an html5up theme to your Reclaim site
 
-Reclaim's file manager is set up to only let you upload a single file at a time - frustrating if you want to use a complicated html5up (or similar) theme on your site! One way around this is to use FTP (file transfer protocol - [see instructions here](https://community.reclaimhosting.com/t/ftp-file-transfer-protocol/304)). But if you don't want to set that up, here's a shortcut:
+Reclaim's file manager is set up to only let you upload a single file at a time - frustrating if you want to use a complicated, multi-file html5up (or similar) theme on your site! One way around this is to use FTP (file transfer protocol - [see instructions here](https://community.reclaimhosting.com/t/ftp-file-transfer-protocol/304)). But if you don't want to set that up, here's a shortcut:
 
-+ Create a zip file of the folder containing your edited html5up theme
-+ In the Reclaim file manager, upload that zip folder. Make sure you're placing it in public_html.
++ Create a zip file of the folder containing your edited html5up theme by selecting the folder (NOT the files inside) and compressing it.
+
+![Compressing a folder](/html5up-images/html5up-0.png)
+
++ In the Reclaim file manager, upload that zip folder. Make sure you're placing it in the public_html folder.
 
 ![Uploading a zip file](/html5up-images/html5up-1.png)
 
-+ Click on public_html and find your zip file in the list of files inside the directory. Click the zip file to highlight it, and click Extract (in the upper left-hand corner) to unzip it. A window that looks like this should pop up. Make sure it's set up to extract the files to /public_html and click Extract File(s).
++ Click on public_html and find your zip file in the list of files inside the directory. Click the zip file to highlight it, then click Extract (in the upper left-hand corner) to unzip it. A window that looks like this should pop up. Make sure it's set up to extract the files to /public_html and click Extract File(s).
 
 ![Extracting files](/html5up-images/html5up-2.png)
 
-+ You should now have an unzipped folder containing your html5up theme. Open it and click Select All in the white menu bar to highlight all the files inside.
++ You should now have an unzipped folder containing your html5up theme, inside public_html. Open it and click Select All in the white menu bar to highlight all the files inside.
 
 ![Selecting files](/html5up-images/html5up-3.png)
 
-+ Click Move (in the top left-hand corner). A window like this will pop up, allowing you to specify what location you want to move these files to. Unless you want the html5up pages to appear only on a certain subdomain of your site (say, at yoursitename.org/html5uptest/), delete anything that comes after /public_html. Click Move File(s).
++ Click Move (in the top left-hand corner). A window like this will pop up, allowing you to specify what location you want to move these files to. Unless you want the html5up pages to appear only on a certain subdomain of your site (say, at yoursitename.org/html5uptest/), delete anything that comes after /public_html in the file path. Click Move File(s).
 
 ![Moving files](/html5up-images/html5up-4.png)
 
 + Refresh the home page of your site. Your theme should now be visible!
-+ Clean up your files by deleting the unzipped version of your theme and the empty folder where your layout files used to be (called html5up-hyperspace in this example).
++ Clean up your file manager by deleting the unzipped version of your theme and the empty folder where your layout files used to be (called html5up-hyperspace in this example).
