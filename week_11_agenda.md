@@ -56,7 +56,7 @@ Reclaim's file manager is set up to only let you upload a single file at a time 
 
 ![Compressing a folder](/html5up-images/html5up-0.png)
 
-+ In the Reclaim file manager, upload that zip folder. Make sure you're placing it in the public_html folder.
++ Open the Reclaim file manager. Open the public_html folder, then click Upload (in the gray menu bar). A page that looks like this will pop up. Upload your zip folder, making sure you're placing it in the public_html folder.
 
 ![Uploading a zip file](/html5up-images/html5up-1.png)
 
@@ -72,5 +72,5 @@ Reclaim's file manager is set up to only let you upload a single file at a time 
 
 ![Moving files](/html5up-images/html5up-4.png)
 
-+ Refresh the home page of your site. Your theme should now be visible!
-+ Clean up your file manager by deleting the unzipped version of your theme and the empty folder where your layout files used to be (called html5up-hyperspace in this example).
++ Refresh the home page of your site. Your theme should now be visible! If you make any additional changes to your theme, you can either re-upload the individual files you've changed or (if you've changed a lot) go through this process again.
++ Clean up your file manager by deleting the unzipped version of your theme folder and the empty folder where your layout files used to be stored (called html5up-hyperspace in this example).
