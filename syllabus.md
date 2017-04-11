@@ -45,24 +45,10 @@ Week 4 (11/10): Monument Lab conversation with Paul Farber
 + Analyze a corpus of texts about Philadelphia using Voyant and Openrefine
 + Across these texts, how are people talking about the city? Relationship to Monument Lab, actually-existing monuments, our project work?
 
-Week 10 (3/13): Ying teaches Illustrator
+[Week 10 (3/13): Ying teaches Illustrator!](https://github.com/dsfellows/dsfellows/blob/master/week_10_agenda.md)
 
-Week 11 (3/27): Video editing workshop
+Week 11 (3/27): Video editing workshop, guest taught by Robert Curry!
 
-Week 12 (4/10): Reclaim/Jekyll refresher
+[Week 12 (4/10): Reclaim crash course](https://github.com/dsfellows/dsfellows/blob/master/week_11_agenda.md)
 
-Week 13 (4/24): Data Refuge
-
-Disability and access
-+ What makes a website or project accessible, and for whom?
-+ Alt-text for Monument Lab images
-+ Accessible data gathering protocols?
-
-Scholarly project management
-+ Methods for project management
-+ Labor and collaboration
-
-Copyright
-+ Crash course on the history and legal issues involved in copyright
-+ Open access and institutional repositories
-+ Design a copyright protocol for Monument Lab
+Week 13 (4/24): Data refuge, wrap-up
