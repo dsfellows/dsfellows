@@ -51,4 +51,4 @@ Week 11 (3/27): Video editing workshop, guest taught by Robert Curry!
 
 [Week 12 (4/10): Reclaim crash course](https://github.com/dsfellows/dsfellows/blob/master/week_11_agenda.md)
 
-Week 13 (4/24): Data refuge, wrap-up
+[Week 13 (4/24): Data refuge, wrap-up](https://github.com/dsfellows/dsfellows/blob/master/week_12_agenda.md)
