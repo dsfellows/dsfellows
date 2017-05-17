@@ -14,16 +14,18 @@ also, team member bios?
 
 # [Week 1 (9/22): Introduction to Digital Scholarship](https://github.com/dsfellows/dsfellows/blob/master/week_1_agenda.md)
 
-
+The Fellows met for the first time to discuss what digital scholarship is and what role it might play in their work across disciplines--from architecture to English to anthropology to computer science. What does a term like "digital scholarship" mean when tools such as word processors, digital editions of texts, and search algorithms have become so ubiquitous in academic work? How can we, and should we distinguish between digital tools or methods and digital objects of study when defining digital scholarship?
 
 
 # [Week 2 (10/13): Beautiful Websites in the Clouds](https://github.com/dsfellows/dsfellows/blob/master/week_2_agenda.md)
 
-screenshots of the different sample materials we used - placeholder/error page on Reclaim site -> simple HTML page -> html5up template? with code for each?
+In this session, the Fellows explored how the online world they interact with every day is created. How does a web browser find and display a website? What is a server? A DNS? When we store things in "the cloud," how are they preserved, and where are they kept physically?
 
-excerpt from Laurie's play
+[excerpt from Laurie's play]
 
+From there, we moved on to an exploration of how web pages are created in more practical terms. How do HTML, CSS, and Javascript combine to form beautiful web pages? What distinguishes static from dynamic websites?
 
+[screenshots of the different sample materials we used - placeholder/error page on Reclaim site -> simple HTML page -> html5up template? with code for each?]
 
 
 # [Week 3 (10/27): Anatomy of Information](https://github.com/dsfellows/dsfellows/blob/master/week_3_agenda.md)
@@ -132,9 +134,9 @@ Next, the Fellows experimented with topic modeling, which uses Bayesian statisti
 
 # Week 11 (3/27): Video editing workshop, guest taught by Robert Curry!
 
-not sure since we didn't save any of the videos we worked on (from a student acting class). I might try to do gif versions of some of the old-school video transitions people used...
+Robert Curry, a filmmaker and instructor at Philly's University of the Arts, gave the Fellows a crash course in video editing, from importing footage to cutting it together to saving and exporting the final product. Working with footage from a UArts acting and directing class, the Fellows practiced cutting between and within scenes and adding text titles and transitions. They also discussed what a hypothetical Monument Lab documentary might look like: what about the project would be most compelling to capture on film? How might a film cut between interviews with participants, images of their proposals, and shots of the sites in Philadelphia they engaged with?
 
-
+[not sure since we didn't save any of the videos we worked on (from a student acting class). I might try to do gif versions of some of the old-school video transitions people used...]
 
 
 # [Week 12 (4/10): Reclaim crash course](https://github.com/dsfellows/dsfellows/blob/master/week_11_agenda.md)
@@ -171,6 +173,9 @@ Following this session, Abigail Mcguckin reflected on her new understanding of t
 
 [group photo]
 
+# Looking forward
+
+Three of the Fellows, Andres, Ying, and Maia, will be staying on for phase two of the DS Fellows program: a summer internship that gives students the opportunity to create ways of interpreting and representing Monument Lab data. Along with four new fellows, these students will develop visualzations and tools for use in Monument Lab 2017, which will bring a diverse group of 21 artists to create temporary monuments in Philadelphia, and continue to solicit speculative monument proposals from the public.
 
 
 # formatting note
