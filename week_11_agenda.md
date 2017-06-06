@@ -4,7 +4,7 @@
 
 [Personal website using Jekyll - by Laurie!](http://www.laurieallen.org/)
 
-[Nabil Kashyup- minimalist portfolio website](http://www.nabilk.com/)
+[Nabil Kashyap- minimalist portfolio website](http://www.nabilk.com/)
 
 [Ed Clews - art portfolio made with Jekyll](https://edclews.com/)
 
